@@ -2,8 +2,8 @@ import React from 'react'
 import RegisterNowCallToAction from '../../components/RegisterNowCallToAction'
 import WorkshopCard from '../../components/WorkshopCard'
 import Register from '../../components/Register'
+import createUniverseTicketWidget from '../../components/UniversieTicketWidget/createUniverseTicketWidget'
 import workshops from './workshops.json'
-import buyTicketsPlaceholder from '../../assets/placeholder/tickets-fundamentals-placeholder.png'
 
 const Workshops = () => (
   <div style={{ marginTop: 60, marginBottom: 100, textAlign: 'center' }}>
@@ -40,28 +40,35 @@ const Workshops = () => (
             descriptions,
             time,
             length,
+            ticketWidgetId,
           },
           i
-        ) => (
-          <div key={`workshop-${i}`} style={{ margin: '50px 0 ' }}>
-            <WorkshopCard
-              title={title}
-              skillLevel={skillLevel}
-              photo={photo}
-              instructor={instructor}
-              position={position}
-              company={company}
-              prerequisites={prerequisites}
-              descriptions={descriptions}
-              time={time}
-              length={length}
-            />
-            <div style={{ margin: '50px 0' }}>
-              <img src={buyTicketsPlaceholder} />
+        ) => {
+          const UniverseTicketWidget = createUniverseTicketWidget(
+            ticketWidgetId
+          )
+
+          return (
+            <div key={`workshop-${i}`} style={{ margin: '50px 0 ' }}>
+              <WorkshopCard
+                title={title}
+                skillLevel={skillLevel}
+                photo={photo}
+                instructor={instructor}
+                position={position}
+                company={company}
+                prerequisites={prerequisites}
+                descriptions={descriptions}
+                time={time}
+                length={length}
+              />
+              <div style={{ margin: '50px 0' }}>
+                <UniverseTicketWidget />
+              </div>
+              <hr />
             </div>
-            <hr />
-          </div>
-        )
+          )
+        }
       )}
     </div>
     <Register />

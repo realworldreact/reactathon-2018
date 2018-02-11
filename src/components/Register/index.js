@@ -1,6 +1,10 @@
 import React from 'react'
-import buyTicketsPlaceholder from '../../assets/placeholder/tickets-fundamentals-placeholder.png'
-import { BUY_TICKETS_ID } from '../../constants'
+import createUniverseTicketWidget from '../UniversieTicketWidget/createUniverseTicketWidget'
+import { BUY_TICKETS_ID, FUNDAMENTALS_TICKET_WIDGET_ID } from '../../constants'
+
+const UniverseTicketWidget = createUniverseTicketWidget(
+  FUNDAMENTALS_TICKET_WIDGET_ID
+)
 
 const Register = () => (
   <section id={BUY_TICKETS_ID}>
@@ -8,7 +12,7 @@ const Register = () => (
     <p style={{ fontSize: 14, marginBottom: 50 }}>
       A nominal fee is required to reduce no-shows
     </p>
-    <img src={buyTicketsPlaceholder} />
+    <UniverseTicketWidget />
   </section>
 )
 
