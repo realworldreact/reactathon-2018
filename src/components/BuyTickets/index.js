@@ -32,8 +32,6 @@ class BuyTickets extends Component {
       return (
         <div>
           <p>Both conferences are now sold out.</p>
-          <p style={{ marginTop: 20 }}>There are still a few tickets for workshops, the hiring mixer, and the hackathon.</p>
-          <p style={{ marginTop: 20 }}>You can also check out another developer conference we're running April 11-12 called <a href="https://www.FrontierSF.com">Frontier</a>, and use the code REACTATHON to get 40% off ;)</p>
         </div>
       )
     } else if (activeTab === 1) {
