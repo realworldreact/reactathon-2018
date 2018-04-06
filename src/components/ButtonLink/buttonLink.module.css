@@ -3,7 +3,7 @@ a.btn {
     background: white;
     color: black;
     font-size: 21px;
-    width: 166px;
+    width: 186px;
     height: 50px;
     cursor: pointer;
     border-radius: 8px;
@@ -13,8 +13,7 @@ a.btn {
     text-align: center;
 }
 
-a.btn:hover,
-a.bth:focus {
+a.btn:hover{
     opacity: .8;
 }
 
@@ -23,8 +22,7 @@ a.bth:focus {
     color: white;
 }
 
-.inverse a.btn:hover,
-.inverse a.btn:focus {
+.inverse a.btn:hover {
     background: white;
     color: black;
     border: 1px solid black;
