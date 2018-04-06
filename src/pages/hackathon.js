@@ -2,6 +2,7 @@ import React from 'react'
 import RegisterNowCallToAction from '../components/RegisterNowCallToAction'
 import Register from '../components/Register'
 import createUniverseTicketWidget from '../components/UniverseTicketWidget/createUniverseTicketWidget'
+import ButtonLink from '../components/ButtonLink'
 import { HACKATHON_TICKET_WIDGET_ID } from '../constants'
 
 const HackathonMixerTicketWidget = createUniverseTicketWidget(
@@ -22,6 +23,14 @@ const Hackathon = () => (
           'The top 7 teams get to demo their app in GitHub’s video studio for the rest of the hackers to see, and the top 3 get to present on stage. See the demos from last year below:',
         ]}
         callToAction="Requires a nominal fee to reduce no-shows"
+        buttonLink={
+          <ButtonLink
+            url="https://www.meetup.com/Real-World-React/photos/28736159/"
+            inverse
+          >
+            See the Photos
+          </ButtonLink>
+        }
       />
     </div>
     <div

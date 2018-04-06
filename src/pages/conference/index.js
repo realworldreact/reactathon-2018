@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import classNames from 'classnames'
 import styles from './conference.module.css'
-import BuyTicketsButton from '../../components/BuyTicketsButton'
+import ButtonLink from '../../components/ButtonLink'
 import Schedule from '../../components/Schedule'
 import dayOneSchedule from './day-one-schedule.json'
 import dayTwoSchedule from './day-two-schedule.json'
@@ -26,7 +26,9 @@ class Conference extends Component {
     const buyTicketsSection = (
       <div>
         <div style={{ width: 166, marginBottom: 15 }}>
-          <BuyTicketsButton inverse />
+          <ButtonLink url="https://www.realworldreact.com/talks" inverse>
+            Watch the Videos
+          </ButtonLink>
         </div>
         <p style={{ marginBottom: 20 }}>Seating is limited.</p>
       </div>

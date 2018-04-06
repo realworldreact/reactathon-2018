@@ -4,7 +4,7 @@ import Fade from 'react-reveal/Fade'
 import styles from './bigHeader.module.css'
 import whiteLogo from './splash-logo@3x.png'
 import backgroundImage from './splash.png'
-import BuyTicketsButton from '../BuyTicketsButton'
+import ButtonLink from '../ButtonLink'
 
 class BigHeader extends Component {
   state = {
@@ -44,7 +44,9 @@ class BigHeader extends Component {
           <h1 style={{ marginTop: 30, color: 'white' }}>March 20-22, 2018</h1>
           <h2 style={{ marginBottom: 25, color: 'white' }}>San Francisco</h2>
           {this.state.loaded ? (
-            <BuyTicketsButton fadeIn />
+            <ButtonLink url="https://www.realworldreact.com/talks" fadeIn>
+              Watch the Videos
+            </ButtonLink>
           ) : (
             <div style={{ height: 50 }} />
           )}
