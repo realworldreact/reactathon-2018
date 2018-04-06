@@ -1,12 +1,12 @@
 import React from 'react'
 import styles from './registerNowCallToAction.module.css'
-import BuyTicketsButton from '../BuyTicketsButton'
 
 const RegisterNowCallToAction = ({
   title,
   descriptionParagraphs,
   callToAction,
   showButton = true,
+  buttonLink,
 }) => (
   <div className={styles['register-now-component']}>
     <h1 style={{ marginBottom: 15 }}>{title}</h1>
@@ -30,7 +30,7 @@ const RegisterNowCallToAction = ({
             visibility: showButton ? 'initial' : 'hidden',
           }}
         >
-          <BuyTicketsButton text="Register Now" inverse />
+          {buttonLink}
         </div>
         <p>{callToAction}</p>
       </div>
