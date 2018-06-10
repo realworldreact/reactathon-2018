@@ -34,7 +34,6 @@
     display: none;
     animation: MoveUpDown 2s linear infinite;
     animation-timing-function: ease-in-out;
-    animation-delay: .4s;
 }
 
 .bug.yellow-bug {

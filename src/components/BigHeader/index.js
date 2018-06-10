@@ -12,7 +12,14 @@ const Bug = ({ className, src, alt, top, right, bottom, left }) => (
     className={`${styles.bug} ${className}`}
     src={src}
     alt={alt}
-    style={{ position: 'absolute', top, right, bottom, left }}
+    style={{
+      position: 'absolute',
+      animationDelay: `${Math.random()}s`,
+      top,
+      right,
+      bottom,
+      left,
+    }}
   />
 )
 
