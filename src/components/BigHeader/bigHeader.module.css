@@ -1,0 +1,85 @@
+.big-header {
+    position: relative;
+    background-image: url('./background-space.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+    animation-name: gracefulimage;
+    animation-duration: 0.3s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in;
+    font-family: Arcade;
+    display: flex;
+    flex-direction: column;
+    padding: 50px 20px;
+    align-items: center;
+    text-align: center;
+}
+
+.big-header p,
+.big-header a {
+    color: white;
+    font-size: 16px;
+    margin-bottom: 20px;
+    line-height: 1.3em;
+}
+
+.big-header a {
+    color: #ff6400;
+}
+
+.bug {
+    display: none;
+    animation: MoveUpDown 2s linear infinite;
+    animation-timing-function: ease-in-out;
+    animation-delay: .4s;
+}
+
+.bug.yellow-bug {
+    display: block;
+    animation: none;
+}
+
+.company-logo-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 250px;
+    height: 52px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+
+.company-logo-container p {
+    margin-bottom: 0;
+}
+
+.reactathon-logo {
+    width: 100%;
+    max-width: 494px;
+    margin-bottom: 40px;
+}
+
+@keyframes gracefulimage {
+    0%   { opacity: 0.25; }
+    50%  { opacity: 0.5; }
+    100% { opacity: 1; }
+}
+
+@-webkit-keyframes MoveUpDown {
+    0%, 100% {
+        transform: translateY(-5px);
+    }
+
+    50% {
+        transform: translateY(5px);
+    }
+}
+
+@media (min-width: 750px) {
+    .bug {
+        display: block;
+    }
+}

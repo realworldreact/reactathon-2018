@@ -2,7 +2,6 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
 import BigHeader from '../components/BigHeader'
-import SmallHeader from '../components/SmallHeader'
 import Footer from '../components/Footer'
 import './index.css'
 import favIcon from './favicon.ico'
@@ -83,7 +82,7 @@ const TemplateWrapper = ({ children, location }) => {
         ]}
         link={[{ rel: 'icon', href: favIcon }]}
       />
-      {isRootPage ? <BigHeader /> : <SmallHeader />}
+      <BigHeader />
       <div
         style={{
           margin: '0 auto',

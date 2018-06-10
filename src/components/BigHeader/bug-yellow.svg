@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="36px" height="28px" viewBox="0 0 36 28" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50 (54983) - http://www.bohemiancoding.com/sketch -->
+    <title>bug-yellow</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="reactathon-2.5-compressed-images" transform="translate(-485.000000, -424.000000)" fill="#FFFA42">
+            <path d="M493,444 L493,439 L489,439 L489,435 L493,435 L493,432 L496,432 L496,428 L496,424 L500,424 L500,428 L500,432 L506,432 L506,428 L506,424 L510,424 L510,428 L510,432 L513,432 L513,435 L517,435 L517,439 L513,439 L513,444 L513,448 L509,448 L509,444 L497,444 L497,448 L493,448 L493,444 Z M485,443 L485,439 L489,439 L489,443 L489,447 L485,447 L485,443 Z M521,443 L521,447 L517,447 L517,443 L517,439 L521,439 L521,443 Z M505,448 L509,448 L509,452 L505,452 L505,448 Z M497,448 L501,448 L501,452 L497,452 L497,448 Z M506,435.5 L506,437.5 L508,437.5 L508,435.5 L506,435.5 Z M498.5,435.5 L498.5,437.5 L500.5,437.5 L500.5,435.5 L498.5,435.5 Z" id="bug-yellow"></path>
+        </g>
+    </g>
+</svg>
