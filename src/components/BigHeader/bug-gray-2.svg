@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="36px" height="28px" viewBox="0 0 36 28" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50 (54983) - http://www.bohemiancoding.com/sketch -->
+    <title>bug-gray-2</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="reactathon-2.5-compressed-images" transform="translate(-834.000000, -35.000000)" fill="#D8D8D8">
+            <path d="M842,55 L842,50 L838,50 L838,46 L842,46 L842,43 L845,43 L845,39 L845,35 L849,35 L849,39 L849,43 L855,43 L855,39 L855,35 L859,35 L859,39 L859,43 L862,43 L862,46 L866,46 L866,50 L862,50 L862,55 L862,59 L858,59 L858,55 L846,55 L846,59 L842,59 L842,55 Z M834,54 L834,50 L838,50 L838,54 L838,58 L834,58 L834,54 Z M870,54 L870,58 L866,58 L866,54 L866,50 L870,50 L870,54 Z M854,59 L858,59 L858,63 L854,63 L854,59 Z M846,59 L850,59 L850,63 L846,63 L846,59 Z M855,46.5 L855,48.5 L857,48.5 L857,46.5 L855,46.5 Z M847.5,46.5 L847.5,48.5 L849.5,48.5 L849.5,46.5 L847.5,46.5 Z" id="bug-gray-2"></path>
+        </g>
+    </g>
+</svg>

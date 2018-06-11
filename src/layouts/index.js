@@ -2,11 +2,9 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
 import BigHeader from '../components/BigHeader'
-import SmallHeader from '../components/SmallHeader'
 import Footer from '../components/Footer'
 import './index.css'
 import favIcon from './favicon.ico'
-import backgroundImage from '../components/BigHeader/splash.png'
 
 const TemplateWrapper = ({ children, location }) => {
   const isRootPage = location.pathname === '/'
@@ -84,14 +82,7 @@ const TemplateWrapper = ({ children, location }) => {
         ]}
         link={[{ rel: 'icon', href: favIcon }]}
       />
-      {isRootPage && (
-        <img
-          src={backgroundImage}
-          alt="hack to get background image to load first"
-          style={{ display: 'none' }}
-        />
-      )}
-      {isRootPage ? <BigHeader /> : <SmallHeader />}
+      <BigHeader />
       <div
         style={{
           margin: '0 auto',

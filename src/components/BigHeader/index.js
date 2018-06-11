@@ -1,63 +1,69 @@
-import React, { Component } from 'react'
-import Link from 'gatsby-link'
-import Fade from 'react-reveal/Fade'
 import styles from './bigHeader.module.css'
-import whiteLogo from './splash-logo@3x.png'
-import backgroundImage from './splash.png'
-import ButtonLink from '../ButtonLink'
+import React, { Component } from 'react'
+import githubWhiteLogo from './github-logo-white@2x.png'
+import rwrLogo from './rwr-logo-white@2x.png'
+import reactathonLogo from './reactathon-logo.svg'
+import bug1 from './bug-gray-1.svg'
+import bug2 from './bug-gray-2.svg'
+import yellowBug from './bug-yellow.svg'
+
+const Bug = ({ className, src, alt, top, right, bottom, left }) => (
+  <img
+    className={`${styles.bug} ${className}`}
+    src={src}
+    alt={alt}
+    style={{
+      position: 'absolute',
+      animationDelay: `${Math.random()}s`,
+      top,
+      right,
+      bottom,
+      left,
+    }}
+  />
+)
 
 class BigHeader extends Component {
-  state = {
-    loaded: false,
-  }
-
-  componentDidMount() {
-    const img = new Image()
-
-    img.onload = () => {
-      this.setState({ loaded: true })
-    }
-
-    img.src = backgroundImage
-  }
-
-  shouldComponentUpdate({}, prevState) {
-    return prevState.loaded !== this.state.loaded
-  }
-
   render() {
-    const children = (
-      <header className={styles.header}>
-        <nav className={styles.nav}>
-          <Link to="/">Home</Link>
-          <Link to="/conference">Conf Schedule</Link>
-          <Link to="/workshops">Workshops</Link>
-          <Link to="/hackathon">Hackathon</Link>
-          <Link to="/hiring-mixer">Hiring Mixer</Link>
-        </nav>
-        <div className={styles['main-container']}>
+    return (
+      <header className={styles['big-header']}>
+        <div className={styles['company-logo-container']}>
           <img
-            src={whiteLogo}
-            alt="Reactathon white logo"
-            className={styles.logo}
+            src={githubWhiteLogo}
+            alt="GitHub white logo"
+            style={{ height: 33 }}
           />
-          <h1 style={{ marginTop: 30, color: 'white' }}>March 20-22, 2018</h1>
-          <h2 style={{ marginBottom: 25, color: 'white' }}>San Francisco</h2>
-          {this.state.loaded ? (
-            <ButtonLink url="https://www.realworldreact.com/talks" fadeIn>
-              Watch the Videos
-            </ButtonLink>
-          ) : (
-            <div style={{ height: 50 }} />
-          )}
+          <p>&</p>
+          <img
+            src={rwrLogo}
+            alt="Real World React logo"
+            style={{ height: '100%' }}
+          />
         </div>
+        <p style={{ fontSize: 12, marginBottom: 50 }}>present</p>
+        <img
+          className={styles['reactathon-logo']}
+          src={reactathonLogo}
+          alt="Reactathon logo"
+        />
+        <p>developer conference</p>
+        <p style={{ marginBottom: 100 }}>sat, sept 8 san francisco</p>
+        <div style={{ position: 'relative', marginBottom: 20 }}>
+          <Bug
+            className={styles['yellow-bug']}
+            src={yellowBug}
+            alt="yellow bug"
+            left={-50}
+          />
+          <a href="#">buy tickets</a>
+        </div>
+        <p style={{ margin: 0 }}>more info</p>
+        <Bug src={bug1} alt="bug 1" top={170} left="10%" />
+        <Bug src={bug1} alt="bug 1" top={150} right="8%" />
+        <Bug src={bug1} alt="bug 1" top={340} right="15%" />
+        <Bug src={bug2} alt="bug 2" top={40} right="25%" />
+        <Bug src={bug2} alt="bug 2" bottom={40} left="8%" />
       </header>
-    )
-
-    return this.state.loaded ? (
-      <Fade>{children}</Fade>
-    ) : (
-      <div style={{ visibility: 'hidden' }}>{children}</div>
     )
   }
 }
