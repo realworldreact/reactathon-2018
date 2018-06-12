@@ -75,27 +75,40 @@ const Speakers = () => (
     </div>
     <div>
       <h1 style={{ marginBottom: 15 }}>Bonus:</h1>
-      <h2 style={{ marginBottom: 50 }}>Special Live Recording of the Front-end Happy Hour Podcast</h2>
+      <h2 style={{ marginBottom: 50 }}>
+        Special Live Recording of the Front-end Happy Hour Podcast
+      </h2>
       <div
-        style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'center', marginBottom: 50 }}
+        style={{
+          display: 'flex',
+          flexWrap: 'wrap',
+          justifyContent: 'center',
+          marginBottom: 50,
+        }}
       >
-        <img src={fehhLogo} alt="Front End Happy Hour logo" style={{ height: 161 }} />
+        <img
+          src={fehhLogo}
+          alt="Front End Happy Hour logo"
+          style={{ height: 161 }}
+        />
       </div>
       <h1 style={{ marginBottom: 30 }}>Featuring</h1>
       <div
         style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'center' }}
       >
-        {frontendHappyHourSpeakers.map(({ name, company, twitter, github, imgSlug }, i) => (
-          <Speaker
-            key={`fehh-speaker-${i}`}
-            name={name}
-            company={company}
-            twitter={twitter}
-            github={github}
-            imgSlug={imgSlug}
-            width={200}
-          />
-        ))}
+        {frontendHappyHourSpeakers.map(
+          ({ name, company, twitter, github, imgSlug }, i) => (
+            <Speaker
+              key={`fehh-speaker-${i}`}
+              name={name}
+              company={company}
+              twitter={twitter}
+              github={github}
+              imgSlug={imgSlug}
+              width={200}
+            />
+          )
+        )}
       </div>
     </div>
     <h3>See the full schedule and topics here:</h3>

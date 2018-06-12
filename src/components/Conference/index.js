@@ -5,47 +5,28 @@ import calendar2Icon from '../../assets/icons/calendar-2@3x.png'
 
 const Conference = () => (
   <section id="conference" style={{ marginTop: 50, marginBottom: 30 }}>
-    <h1 style={{ marginBottom: 30 }}>Developer Conference</h1>
+    <h1 style={{ marginBottom: 30 }}>Your Neighborhood React Conference</h1>
     <p style={{ maxWidth: 610, marginLeft: 'auto', marginRight: 'auto' }}>
-      Reactathon is a 3-day dual-conference in the heart of San Francisco
-      featuring some of the brightest minds in the JS/React community.
+      Reactathon features an evening + full day of technical talks in the heart
+      of San Francisco on all things React. Come learn from some of the
+      brightest minds and best speakers in the JS/React community.
     </p>
-    <p style={{ marginTop: 15 }}>You can attend one or both conferences:</p>
-    <div
-      style={{
-        display: 'flex',
-        justifyContent: 'space-between',
-        marginTop: 50,
-        marginLeft: 'auto',
-        marginRight: 'auto',
-        maxWidth: 630,
-      }}
-    >
-      <div style={{ textAlign: 'center', width: 290 }}>
-        <img
-          src={calendar1Icon}
-          alt="fundamentals calendar icon"
-          className="icon"
-        />
-        <h1 style={{ marginBottom: 30 }}>Fundamentals</h1>
-        <p>
-          A full day of talks filled with fundamentals, best practices, and
-          contextual advice in a single-day, single-track conference
-        </p>
-      </div>
-      <div style={{ textAlign: 'center', width: 290 }}>
-        <img
-          src={calendar2Icon}
-          alt="advanced calendar icon"
-          className="icon"
-        />
-        <h1 style={{ marginBottom: 30 }}>Advanced</h1>
-        <p>
-          Two full days of talks, mingling, and new friends built around the
-          cutting-edge of web and mobile development
-        </p>
-      </div>
-    </div>
+    <p style={{ marginTop: 15 }}>
+      Want to give a talk yourself? Our{' '}
+      <a
+        href="https://docs.google.com/forms/d/e/1FAIpQLSc31T6Nr_xmYk5ACIqG7S8jmXpWKXpi9R-eFEXzYmL-8Xz4Ew/viewform?usp=sf_link"
+        target="_blank"
+      >
+        CFP is open
+      </a>{' '}
+      until June 20.{' '}
+    </p>
+    <p style={{ marginTop: 15 }}>
+      Interested in group discounts or sponsorships? Contact{' '}
+      <a href="mailto:sponsors@reactathon.com?subject=Sponsorship Inquiry">
+        sponsors@reactathon.com
+      </a>.
+    </p>
   </section>
 )
 

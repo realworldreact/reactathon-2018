@@ -47,7 +47,7 @@ class BigHeader extends Component {
           alt="Reactathon logo"
         />
         <p>developer conference</p>
-        <p style={{ marginBottom: 100 }}>sat, sept 8 san francisco</p>
+        <p style={{ marginBottom: 100 }}>sept 7 - 8 • san francisco</p>
         <div style={{ position: 'relative', marginBottom: 20 }}>
           <Bug
             className={styles['yellow-bug']}
