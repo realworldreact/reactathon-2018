@@ -13,10 +13,6 @@ const IndexPage = () => (
   <main style={{ textAlign: 'center', marginBottom: 100 }}>
     <Conference />
     <hr />
-    <Speakers />
-    <hr />
-    <AdditionalEvents />
-    <hr />
     <MediaQuery minDeviceWidth={1224}>
       <div>
         <Highlights />

@@ -55,9 +55,9 @@ class BigHeader extends Component {
             alt="yellow bug"
             left={-50}
           />
-          <a href="#">buy tickets</a>
+          <a href="#">Super Early Bird Tickets Now on Sale!</a>
         </div>
-        <p style={{ margin: 0 }}>more info</p>
+        {/* <p style={{ margin: 0 }}>more info</p> */}
         <Bug src={bug1} alt="bug 1" top={170} left="10%" />
         <Bug src={bug1} alt="bug 1" top={150} right="8%" />
         <Bug src={bug1} alt="bug 1" top={340} right="15%" />
