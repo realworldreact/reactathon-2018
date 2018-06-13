@@ -53,6 +53,15 @@ class Highlights extends Component {
             </div>
           ))}
         </div>
+        <p style={{ marginTop: 50 }}>
+          Interested in group discounts or sponsorships? Contact{' '}
+          <a href="mailto:sponsors@reactathon.com?subject=Sponsorship Inquiry">
+            sponsors@reactathon.com
+          </a>.
+        </p>
+        <p style={{ marginTop: 15 }}>Real World React is committed to an inclusive and harassment-free atmosphere. Please review our <a href="http://jsconf.com/codeofconduct.html" target="_blank">
+        Code of Conduct
+      </a>.</p>
       </section>
     )
   }

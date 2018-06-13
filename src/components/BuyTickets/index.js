@@ -19,7 +19,7 @@ class BuyTickets extends Component {
   constructor() {
     super()
 
-    this.state = { activeTab: 3 }
+    this.state = { activeTab: 1 }
   }
 
   handleTabClick(e, tabNum) {
@@ -28,10 +28,10 @@ class BuyTickets extends Component {
   }
 
   renderActiveTabContent(activeTab) {
-    if (activeTab === 3) {
+    if (activeTab === 1) {
       return (
-        <div>
-          <p>Both conferences are now sold out.</p>
+        <div style={{marginTop: 30 }}>
+          <p>Super Early Bird Tickets now on sale at Eventbrite</p>
         </div>
       )
     } else if (activeTab === 1) {
@@ -51,7 +51,7 @@ class BuyTickets extends Component {
         style={{ marginTop: 50 }}
       >
         <h1>Buy Tickets</h1>
-        <div style={{ margin: 'auto', marginTop: 20, marginBottom: 50 }}>
+        {/* <div style={{ margin: 'auto', marginTop: 20, marginBottom: 50 }}>
           <div style={{ display: 'flex', justifyContent: 'center' }}>
             {[1, 2, 3].map(tabNum => (
               <div key={`round-${tabNum}`}>
@@ -67,7 +67,7 @@ class BuyTickets extends Component {
               </div>
             ))}
           </div>
-        </div>
+        </div> */}
         {this.renderActiveTabContent(activeTab)}
       </section>
     )
