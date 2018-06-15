@@ -5,7 +5,7 @@ const Conference = () => (
     <h3 style={{ marginBottom: 30 }}>
       FULL DAY CONFERENCE ON ALL THINGS REACT
     </h3>
-    <div style={{ width: 580, margin: 'auto' }}>
+    <div style={{ maxWidth: 580, margin: 'auto' }}>
       <p>
         GitHub is hosting us at their beautiful headquarters in downtown San
         Francisco for a special edition of Reactathon.
