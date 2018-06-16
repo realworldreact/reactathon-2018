@@ -1,9 +1,7 @@
 import React from 'react'
-import Fade from 'react-reveal/Fade'
-import calendar1Icon from '../../assets/icons/calendar-1@3x.png'
-import calendar2Icon from '../../assets/icons/calendar-2@3x.png'
 
 const Conference = () => (
+<<<<<<< HEAD
   <section id="conference" style={{ marginTop: 50, marginBottom: 30 }}>
     <h1 style={{ marginBottom: 30 }}>Your Neighborhood React Conference</h1>
     <p style={{ maxWidth: 610, marginLeft: 'auto', marginRight: 'auto' }}>
@@ -21,6 +19,23 @@ const Conference = () => (
       </a>{' '}
       until June 20.{' '}
     </p>
+=======
+  <section id="conference" style={{ marginTop: 60, marginBottom: 60 }}>
+    <h3 style={{ marginBottom: 30 }}>
+      FULL DAY CONFERENCE ON ALL THINGS REACT
+    </h3>
+    <div style={{ maxWidth: 580, margin: 'auto' }}>
+      <p>
+        GitHub is hosting us at their beautiful headquarters in downtown San
+        Francisco for a special edition of Reactathon.
+      </p>
+      <p style={{ marginTop: 16 }}>
+        In addition to a full day of talks, we are also introducing a “Lounge
+        Track” for attendees to get up and close with speakers and other
+        experts.
+      </p>
+    </div>
+>>>>>>> update-conference-component
   </section>
 )
 

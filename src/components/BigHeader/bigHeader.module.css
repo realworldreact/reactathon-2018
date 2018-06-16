@@ -10,12 +10,15 @@
     animation-duration: 0.3s;
     animation-iteration-count: 1;
     animation-timing-function: ease-in;
-    font-family: Arcade;
     display: flex;
     flex-direction: column;
     padding: 50px 20px;
     align-items: center;
     text-align: center;
+}
+
+.big-header * {
+    font-family: Arcade;
 }
 
 .big-header p,

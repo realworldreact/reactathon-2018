@@ -5,7 +5,6 @@ import Speakers from '../components/Speakers'
 import AdditionalEvents from '../components/AdditionalEvents'
 import Sponsors from '../components/Sponsors'
 import Highlights from '../components/Highlights'
-import ConvinceYourBoss from '../components/ConvinceYourBoss'
 
 import BuyTickets from '../components/BuyTickets'
 
