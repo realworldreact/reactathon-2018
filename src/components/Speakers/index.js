@@ -7,22 +7,12 @@ const Speakers = () => (
   <section className={styles.speakers} style={{ marginTop: 60 }}>
     <main>
       <h1 style={{ padding: 80 }}>Speakers</h1>
-      <div
-        style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'center' }}
-      >
-        {speakers.map(({ name, company, topic, imgSlug }, i) => (
-          <Speaker
-            key={`${name}`}
-            name={name}
-            company={company}
-            topic={topic}
-            imgSlug={imgSlug}
-          />
+      <div className={styles['speaker-cards-container']}>
+        {speakers.map(({ name, company, topic, imgSlug }) => (
+          <Speaker key={`${name}`} name={name} company={company} topic={topic} imgSlug={imgSlug} />
         ))}
       </div>
-      <div
-        style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'center' }}
-      >
+      <div className={styles['mc-container']}>
         <Speaker
           name="Brian Douglas"
           company="Github"

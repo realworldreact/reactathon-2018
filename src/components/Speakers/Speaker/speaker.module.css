@@ -1,6 +1,5 @@
 .speaker {
   display: flex;
-  min-width: 440px;
   margin: 0 40px 100px;
   align-items: center;
 }
@@ -28,6 +27,7 @@
   padding-left: 100px;
   margin-left: -75px;
   border-radius: 10px;
+  text-align: left;
 }
 
 .info-container:hover {
@@ -47,6 +47,7 @@
 .icon-container {
   display: flex;
   width: 30px;
+  min-width: 30px;
   margin-right: 10px;
   justify-content: center;
 }
