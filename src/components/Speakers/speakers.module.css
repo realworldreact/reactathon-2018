@@ -6,6 +6,10 @@
   padding: 100px 0;
 }
 
+.speakers * {
+  font-family: Arcade, "Courier New", monospace;
+}
+
 .speakers main {
   background: rgba(255, 255, 255, .8);
   border-radius: 40px;

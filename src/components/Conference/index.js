@@ -1,7 +1,7 @@
 import React from 'react'
 
 const Conference = () => (
-  <section id="conference" style={{ marginTop: 50, marginBottom: 30 }}>
+  <section id="conference" className="container" style={{ marginTop: 50, marginBottom: 30 }}>
     <h1 style={{ marginBottom: 30 }}>Your Neighborhood React Conference</h1>
     <p style={{ maxWidth: 610, marginLeft: 'auto', marginRight: 'auto' }}>
       This special edition of Reactathon features an evening + full day of

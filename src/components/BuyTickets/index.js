@@ -5,7 +5,7 @@ import { BUY_TICKETS_ID } from '../../constants'
 const BuyTickets = () => (
   <section
     id={BUY_TICKETS_ID}
-    className={styles['component-container']}
+    className={`container ${styles['component-container']}`}
     style={{ marginTop: 50 }}
   >
     <h1>Buy Tickets</h1>

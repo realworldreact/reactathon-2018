@@ -6,16 +6,22 @@
 
 .speaker-image,
 .placeholder {
-  width: 150px;
-  min-width: 150px;
-  height: 150px;
+  width: 125px;
+  height: 125px;
   border-radius: 50%;
   position: relative;
   z-index: 1;
 }
 
+.speaker p {
+  color: black;
+  font-size: 13px;
+  line-height: 1.3em;
+}
+
 .placeholder {
   background: gray;
+  min-width: 125px;
 }
 
 .info-container {
@@ -25,7 +31,7 @@
   width: 100%;
   height: 120px;
   padding-left: 100px;
-  padding-right: 20px;
+  padding-right: 10px;
   margin-left: -75px;
   border-radius: 10px;
   text-align: left;
@@ -51,4 +57,16 @@
   min-width: 30px;
   margin-right: 10px;
   justify-content: center;
+}
+
+@media only screen and (min-width: 480px) {
+  .speaker-image,
+  .placeholder {
+    width: 150px;
+    height: 150px;
+  }
+
+  .placeholder {
+    min-width: 150px;
+  }
 }
