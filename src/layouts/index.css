@@ -644,6 +644,11 @@ pre tt:after {
   opacity: .4;
 }
 
+.container {
+  max-width: 1080px;
+  padding: 0 1.0875rem 0;
+}
+
 .icon {
   height: 48px;
 }

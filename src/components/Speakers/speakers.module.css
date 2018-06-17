@@ -1,0 +1,18 @@
+.speakers {
+  background-image: url('./images/background-nebula.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 100px 0;
+}
+
+.speakers main {
+  background: rgba(255, 255, 255, .8);
+  border-radius: 40px;
+}
+
+@media only screen and (min-width: 480px) {
+  .speakers {
+    padding: 100px 80px;
+  }
+}
