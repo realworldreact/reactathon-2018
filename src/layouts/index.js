@@ -83,16 +83,7 @@ const TemplateWrapper = ({ children, location }) => {
         link={[{ rel: 'icon', href: favIcon }]}
       />
       <BigHeader />
-      <div
-        style={{
-          margin: '0 auto',
-          maxWidth: 1080,
-          padding: '0px 1.0875rem 0px',
-          paddingTop: 0,
-        }}
-      >
-        {children()}
-      </div>
+      <div style={{ margin: '0 auto', paddingTop: 0 }}>{children()}</div>
       <Footer />
     </div>
   )
