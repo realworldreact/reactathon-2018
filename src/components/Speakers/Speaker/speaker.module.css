@@ -7,6 +7,7 @@
 .speaker-image,
 .placeholder {
   width: 125px;
+  min-width: 125px;
   height: 125px;
   border-radius: 50%;
   position: relative;
@@ -21,7 +22,6 @@
 
 .placeholder {
   background: gray;
-  min-width: 125px;
 }
 
 .info-container {
@@ -63,10 +63,7 @@
   .speaker-image,
   .placeholder {
     width: 150px;
-    height: 150px;
-  }
-
-  .placeholder {
     min-width: 150px;
+    height: 150px;
   }
 }
