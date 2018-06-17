@@ -9,6 +9,7 @@
 .speakers main {
   background: rgba(255, 255, 255, .8);
   border-radius: 40px;
+  padding-bottom: 50px;
 }
 
 @media only screen and (min-width: 480px) {

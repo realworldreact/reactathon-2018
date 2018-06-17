@@ -1,3 +1,62 @@
 [
-
+  {
+    "name": "Shelley Vohr",
+    "company": "Github",
+    "topic": "Electron",
+    "imgSlug": "speaker-shelley.png"
+  },
+  {
+    "name": "Desmond Brand",
+    "company": "Flexport",
+    "topic": "React + Rails",
+    "imgSlug": "speaker-desmond.png"
+  },
+  {
+    "name": "Brian Leroux",
+    "company": "Begin.com",
+    "topic": "Beyond React",
+    "imgSlug": "speaker-brian-leroux.png"
+  },
+  {
+    "name": "Lauri Voss",
+    "company": "NPM",
+    "topic": "NPM",
+    "imgSlug": "speaker-laurie-voss.png"
+  },
+  {
+    "name": "Ali Butler Glenesk",
+    "company": "Curai",
+    "topic": "Teaching React",
+    "imgSlug": null
+  },
+  {
+    "name": "Maja Wichrowska",
+    "company": "Airbnb",
+    "topic": "RTL Languages",
+    "imgSlug": "speaker-maja.png"
+  },
+  {
+    "name": "Cristiano Calcagno",
+    "company": "Facebook",
+    "topic": "ReasonReact & Localstate",
+    "imgSlug": "speaker-cristiano.png"
+  },
+  {
+    "name": "Brian Hold",
+    "company": "Microsoft",
+    "topic": "Performance Optimizations",
+    "imgSlug": "speaker-brian-holt.png"
+  },
+  {
+    "name": "Ryan Burgess",
+    "company": "Netflix",
+    "topic": "A/B Testing at Scale",
+    "imgSlug": "speaker-ryan.png"
+  },
+  {
+    "name": "Stephanie He",
+    "company": "Flexport",
+    "topic": "Code Splitting & Scaling",
+    "imgSlug": "speaker-stephanie.png"
+  }
 ]
