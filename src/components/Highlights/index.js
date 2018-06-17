@@ -44,7 +44,7 @@ class Highlights extends Component {
                   alt="highlight image"
                   className="img-responsive"
                   style={{
-                    border: '4px solid white'
+                    border: '4px solid white',
                   }}
                 />
               ) : (
@@ -59,9 +59,13 @@ class Highlights extends Component {
             sponsors@reactathon.com
           </a>.
         </p>
-        <p style={{ marginTop: 15 }}>Real World React is committed to an inclusive and harassment-free atmosphere. Please review our <a href="http://jsconf.com/codeofconduct.html" target="_blank">
-        Code of Conduct
-      </a>.</p>
+        <p style={{ marginTop: 15 }}>
+          Real World React is committed to an inclusive and harassment-free
+          atmosphere. Please review our{' '}
+          <a href="http://jsconf.com/codeofconduct.html" target="_blank">
+            Code of Conduct
+          </a>.
+        </p>
       </section>
     )
   }

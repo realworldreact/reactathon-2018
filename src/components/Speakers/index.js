@@ -9,7 +9,13 @@ const Speakers = () => (
       <h1 style={{ padding: 80 }}>Speakers</h1>
       <div className={styles['speaker-cards-container']}>
         {speakers.map(({ name, company, topic, imgSlug }) => (
-          <Speaker key={`${name}`} name={name} company={company} topic={topic} imgSlug={imgSlug} />
+          <Speaker
+            key={`${name}`}
+            name={name}
+            company={company}
+            topic={topic}
+            imgSlug={imgSlug}
+          />
         ))}
       </div>
       <div className={styles['mc-container']}>
