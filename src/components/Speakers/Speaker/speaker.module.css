@@ -31,11 +31,11 @@
   text-align: left;
 }
 
-.info-container:hover {
+.speaker:hover .info-container {
   background: black;
 }
 
-.info-container:hover p {
+.speaker:hover .info-container p {
   color: white;
 }
 
