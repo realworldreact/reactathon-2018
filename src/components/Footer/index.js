@@ -1,7 +1,7 @@
 import React from 'react'
 import Link from 'gatsby-link'
 import styles from './footer.module.css'
-import blackLogo from '../../assets/reactathon-logo-black.png'
+import footerLogo from './footer-logo.svg'
 import facebookIcon from './facebook-icon.png'
 import twitterIcon from './twitter-icon@3x.png'
 import meetupIcon from './meetup-icon@3x.png'
@@ -15,14 +15,14 @@ import EmailSignup from '../EmailSignup'
 
 const Footer = () => (
   <footer className={styles.footer}>
-    <img src={blackLogo} alt="Reactathon logo" style={{ width: 150 }} />
-    <nav className={styles.nav} style={{ marginTop: 15 }}>
+    <img src={footerLogo} alt="Reactathon logo" style={{ width: 150 }} />
+    {/* <nav className={styles.nav} style={{ marginTop: 15 }}>
       <Link to="/">Home</Link>
       <Link to="/conference">Conference</Link>
       <Link to="/workshops">Workshops</Link>
       <Link to="/hackathon">Hackathon</Link>
       <Link to="/hiring-mixer">Hiring Mixer</Link>
-    </nav>
+    </nav> */}
     <nav className={styles.nav} style={{ marginTop: 30 }}>
       <a href="http://jsconf.com/codeofconduct.html" target="_blank">
         Code of Conduct

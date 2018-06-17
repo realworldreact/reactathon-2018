@@ -30,7 +30,12 @@
 }
 
 .big-header a {
+    color: #FFFA42;
+}
+
+.big-header a:hover {
     color: #ff6400;
+    text-decoration: none;
 }
 
 .bug {

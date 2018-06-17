@@ -8,7 +8,7 @@ class Highlights extends Component {
   componentDidMount() {
     const imageLoadDelay = 3000
     function loadImages() {
-      Array.from(new Array(24), (x, i) => i + 1).map(x => {
+      Array.from(new Array(13), (x, i) => i + 1).map(x => {
         const img = new Image()
 
         img.onload = () => {
@@ -27,7 +27,7 @@ class Highlights extends Component {
   render() {
     return (
       <section style={{ marginTop: 50, marginBottom: 50 }}>
-        <h1>2017 Highlights</h1>
+        <h1>March 2018 Highlights</h1>
         <div
           style={{
             display: 'flex',
@@ -36,20 +36,32 @@ class Highlights extends Component {
             marginTop: 50,
           }}
         >
-          {Array.from(new Array(24), (x, i) => i + 1).map(x => (
+          {Array.from(new Array(13), (x, i) => i + 1).map(x => (
             <div key={`highlight-${x}`} style={{ flexBasis: 300 }}>
               {this.state.loadedImages[x] ? (
                 <img
                   src={require(`./images/highlights-${x}@2x.png`)}
                   alt="highlight image"
                   className="img-responsive"
+                  style={{
+                    border: '4px solid white'
+                  }}
                 />
               ) : (
-                <div style={{ width: 300, height: 201.953 }} />
+                <div style={{ width: 300, height: 200 }} />
               )}
             </div>
           ))}
         </div>
+        <p style={{ marginTop: 50 }}>
+          Interested in group discounts or sponsorships? Contact{' '}
+          <a href="mailto:sponsors@reactathon.com?subject=Sponsorship Inquiry">
+            sponsors@reactathon.com
+          </a>.
+        </p>
+        <p style={{ marginTop: 15 }}>Real World React is committed to an inclusive and harassment-free atmosphere. Please review our <a href="http://jsconf.com/codeofconduct.html" target="_blank">
+        Code of Conduct
+      </a>.</p>
       </section>
     )
   }

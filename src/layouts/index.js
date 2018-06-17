@@ -17,7 +17,7 @@ const TemplateWrapper = ({ children, location }) => {
           {
             name: 'description',
             content:
-              '3-day dual-conference & hackathon in San Francisco featuring the brightest minds in the JS/React community.',
+              'This special edition of Reactathon features an evening + full day of technical talks in the heart of San Francisco on all things React. Come hang out with and learn from some of the brightest minds and best speakers in the JS/React community.',
           },
           {
             name: 'keywords',
@@ -38,7 +38,7 @@ const TemplateWrapper = ({ children, location }) => {
           },
           {
             content:
-              '3-day dual-conference & hackathon in San Francisco featuring the brightest minds in the JS/React community.',
+              'This special edition of Reactathon features an evening + full day of technical talks in the heart of San Francisco on all things React. Come hang out with and learn from some of the brightest minds and best speakers in the JS/React community.',
             property: 'og:description',
           },
           {
@@ -76,7 +76,7 @@ const TemplateWrapper = ({ children, location }) => {
             name: 'twitter:image:src',
           },
           {
-            content: 'Reactathon: March 19 - 25',
+            content: 'Reactathon: Sept 7 -8, 2018',
             name: 'twitter:title',
           },
         ]}

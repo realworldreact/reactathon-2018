@@ -11,9 +11,6 @@ import BuyTickets from '../components/BuyTickets'
 const IndexPage = () => (
   <main style={{ textAlign: 'center', marginBottom: 100 }}>
     <Conference />
-    <Speakers />
-    <hr />
-    <AdditionalEvents />
     <hr />
     <MediaQuery minDeviceWidth={1224}>
       <div>
