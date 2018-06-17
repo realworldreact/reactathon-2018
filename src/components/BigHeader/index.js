@@ -48,16 +48,14 @@ class BigHeader extends Component {
         />
         <p>developer conference</p>
         <p style={{ marginBottom: 100 }}>sept 7 - 8 • san francisco</p>
-        <div style={{ position: 'relative', marginBottom: 20 }}>
-          <Bug
-            className={styles['yellow-bug']}
+        <div style={{ display: 'flex', alignItems: 'center' }}>
+          <img
             src={yellowBug}
             alt="yellow bug"
-            left={-50}
+            className={styles['yellow-bug']}
           />
           <a href="#">Super Early Bird Tickets Now on Sale!</a>
         </div>
-        {/* <p style={{ margin: 0 }}>more info</p> */}
         <Bug src={bug1} alt="bug 1" top={170} left="10%" />
         <Bug src={bug1} alt="bug 1" top={150} right="8%" />
         <Bug src={bug1} alt="bug 1" top={340} right="15%" />
