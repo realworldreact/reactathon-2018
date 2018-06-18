@@ -1,15 +1,12 @@
 import React from 'react'
 import Fade from 'react-reveal/Fade'
-import classNames from 'classnames'
 import styles from './buttonLink.module.css'
 
-const ButtonLink = ({ inverse, fadeIn = false, url, children }) => {
+const ButtonLink = ({ fadeIn = false, url, children }) => {
   const body = (
-    <div className={classNames({ [styles.inverse]: inverse })}>
-      <a href={url} className={styles.btn} target="_blank">
-        {children}
-      </a>
-    </div>
+    <a href={url} className={styles.btn} target="_blank">
+      {children}
+    </a>
   )
 
   return fadeIn ? (

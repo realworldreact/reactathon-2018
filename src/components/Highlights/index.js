@@ -28,7 +28,7 @@ class Highlights extends Component {
     return (
       <section
         className="container"
-        style={{ marginTop: 100, marginBottom: 50 }}
+        style={{ marginTop: 50, marginBottom: 50 }}
       >
         <h1>March 2018 Highlights</h1>
         <div
