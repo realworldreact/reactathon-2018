@@ -37,32 +37,25 @@ const Sponsors = () => (
         name="Eventbrite"
         url="https://www.eventbrite.com/careers/"
         imgSrc={eventbriteLogo}
-        target="_blank"
         style={{
           height: 40,
           padding: '4px 0',
           margin: '25px 50px',
-          webkitFilter: 'grayscale(100%)',
-          filter: 'grayscale(100%)',
         }}
       />
       <SponsorImage
         name="GitHub"
         url="https://github.com/about/careers"
         imgSrc={githubLogo}
-        target="_blank"
         style={{ height: 35, margin: '10px 40px 28px', opacity: '.55' }}
       />
       <SponsorImage
         name="Netlify"
         url="https://www.netlify.com/careers/"
         imgSrc={netlifyLogo}
-        target="_blank"
         style={{
           height: 50,
           margin: '25px 50px 18px',
-          webkitFilter: 'grayscale(100%)',
-          filter: 'grayscale(100%)',
           opacity: '.8',
         }}
       />
@@ -70,29 +63,22 @@ const Sponsors = () => (
         name="Playstation"
         url="https://www.playstation.com/en-us/corporate/about/careers/"
         imgSrc={playstationLogo}
-        target="_blank"
         style={{ opacity: '.6' }}
       />
       <SponsorImage
         name="Microsoft"
         url="https://careers.microsoft.com"
         imgSrc={microsoftLogo}
-        target="_blank"
         style={{
           height: 35,
           marginBottom: '28px',
-          webkitFilter: 'grayscale(100%)',
-          filter: 'grayscale(100%)',
         }}
       />
       <SponsorImage
         name="Zumper"
         url="https://www.zumper.com/jobs"
         imgSrc={zumperLogo}
-        target="_blank"
         style={{
-          webkitFilter: 'grayscale(100%)',
-          filter: 'grayscale(100%)',
           opacity: '.6',
         }}
       />
@@ -100,12 +86,9 @@ const Sponsors = () => (
         name="Flexport"
         url="https://www.flexport.com/careers"
         imgSrc={flexportLogo}
-        target="_blank"
         style={{
           height: 26,
           margin: '30px 50px',
-          webkitFilter: 'grayscale(100%)',
-          filter: 'grayscale(100%)',
           opacity: '.5',
         }}
       />
@@ -113,12 +96,9 @@ const Sponsors = () => (
         name="Hasura"
         url="https://hasura.io/"
         imgSrc={hasuraLogo}
-        target="_blank"
         style={{
           height: 35,
           margin: '26px 30px',
-          webkitFilter: 'grayscale(100%)',
-          filter: 'grayscale(100%)',
           opacity: '.7',
         }}
       />
@@ -126,12 +106,9 @@ const Sponsors = () => (
         name="NVIDIA"
         url="http://www.nvidia.com/object/careers.html"
         imgSrc={nvidiaLogo}
-        target="_blank"
         style={{
           height: 32,
           margin: '26px 30px',
-          webkitFilter: 'grayscale(100%)',
-          filter: 'grayscale(100%)',
           opacity: '.6',
         }}
       />
@@ -139,10 +116,7 @@ const Sponsors = () => (
         name="Medidata"
         url="https://www.mdsol.com/en/careers"
         imgSrc={medidataLogo}
-        target="_blank"
         style={{
-          webkitFilter: 'grayscale(100%)',
-          filter: 'grayscale(100%)',
           opacity: '.7',
         }}
       />
@@ -150,12 +124,9 @@ const Sponsors = () => (
         name="Eaze"
         url="https://www.eaze.com/careers"
         imgSrc={eazeLogo}
-        target="_blank"
         style={{
           height: 33,
           margin: '23px 42px',
-          webkitFilter: 'grayscale(100%)',
-          filter: 'grayscale(100%)',
         }}
       />
 
@@ -163,11 +134,8 @@ const Sponsors = () => (
         name="Nyentek"
         url="http://www.nyentek.com"
         imgSrc={nyentekLogo}
-        target="_blank"
         style={{
           margin: '20px 42px',
-          webkitFilter: 'grayscale(100%)',
-          filter: 'grayscale(100%)',
           opacity: '.6',
         }}
       />
@@ -175,17 +143,12 @@ const Sponsors = () => (
         name="Docker"
         url="https://www.docker.com/careers"
         imgSrc={dockerLogo}
-        target="_blank"
-        style={{ webkitFilter: 'grayscale(100%)', filter: 'grayscale(100%)' }}
       />
       <SponsorImage
         name="Netflix"
         url="https://jobs.netflix.com/"
         imgSrc={netflixLogo}
-        target="_blank"
         style={{
-          webkitFilter: 'grayscale(100%)',
-          filter: 'grayscale(100%)',
           opacity: '.6',
         }}
       />
@@ -193,36 +156,27 @@ const Sponsors = () => (
         name="TokBox"
         url="https://tokbox.com/"
         imgSrc={tokboxLogo}
-        target="_blank"
         style={{
           height: 33,
           margin: '23px 42px',
-          webkitFilter: 'grayscale(100%)',
-          filter: 'grayscale(100%)',
         }}
       />
       <SponsorImage
         name="Front"
         url="https://frontapp.com/"
         imgSrc={frontLogo}
-        target="_blank"
         style={{
           height: 33,
           margin: '23px 42px',
-          webkitFilter: 'grayscale(100%)',
-          filter: 'grayscale(100%)',
         }}
       />
       <SponsorImage
         name="Stackshare"
         url="https://stackshare.io/careers"
         imgSrc={stackshareLogo}
-        target="_blank"
         style={{
           height: 33,
           margin: '23px 42px',
-          webkitFilter: 'grayscale(100%)',
-          filter: 'grayscale(100%)',
           opacity: '.55',
         }}
       />
