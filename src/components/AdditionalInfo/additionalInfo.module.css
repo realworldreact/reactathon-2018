@@ -1,0 +1,79 @@
+.additional-info {
+  margin-bottom: 50px;
+}
+
+.additional-info h2, h3, p {
+  font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+}
+
+.additional-info h2 {
+  color: #ff6400;
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.additional-info h3 {
+  color: black;
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.additional-info p {
+  color: black;
+  font-size: 12px;
+}
+
+.additional-info img {
+  width: 180px;
+  min-width: 180px;
+  height: 180px;
+}
+
+.additional-info article {
+  text-align: left;
+  max-width: 464px;
+  margin: 0 auto;
+}
+
+.additional-info main {
+  display: grid;
+  grid-template-columns: minmax(min-content, 500px);
+  justify-content: center;
+  grid-gap: 50px;
+}
+
+.additional-info article main {
+  display: flex;
+}
+
+.item-description {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+}
+
+.button-container {
+  margin-top: auto;
+}
+
+@media only screen and (min-width: 768px) {
+  .additional-info main {
+    grid-template-columns: repeat(2, minmax(min-content, 500px));
+  }
+}
+
+@media only screen and (min-width: 480px) {
+  .additional-info p {
+    font-size: 14px;
+  }
+
+  .additional-info h3 {
+    font-size: 20px;
+    margin-bottom: 15px;
+  }
+
+  .item-description {
+    margin-left: 30px;
+  }
+}
