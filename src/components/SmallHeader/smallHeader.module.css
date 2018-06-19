@@ -1,6 +1,6 @@
 .header {
     min-height: 42px;
-    background-image: url('./navbar-background@2x.png');
+    background-image: url('./small-navbar-background.png');
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
@@ -17,24 +17,41 @@
     font-size: 13px;
 }
 
-@media only screen and (max-width: 768px) {
-    .logo {
-        margin: auto;
-        padding-top: 15px;
-    }
+.logo {
+    margin: auto;
+    padding-top: 15px;
+}
 
-    .header {
-        padding: 0 5px;
-    }
+.nav {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, max-content);
+    grid-auto-rows: 30px;
+    justify-content: center;
+    padding: 15px 0;
+    text-align: center;
+}
 
+@media only screen and (min-width: 600px) {
     .nav {
+        display: block;
         width: 100%;
         margin: auto;
         padding-bottom: 15px;
         text-align: center;
     }
+}
 
-    .nav a {
-        margin: 0 5px;
+@media only screen and (min-width: 768px) {
+    .logo {
+        margin: 0;
+        padding-top: 0;
+    }
+
+    .nav {
+        width: auto;
+        margin: 0;
+        padding: 0;
+        text-align: center;
     }
 }
