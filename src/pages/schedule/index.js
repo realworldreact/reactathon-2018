@@ -2,7 +2,7 @@ import styles from './schedulePage.module.css'
 import React, { Component } from 'react'
 import { Link as ReactScrollLink } from 'react-scroll'
 import Link from 'gatsby-link'
-import queryString from 'query-string'
+import qs from 'querystringify'
 import classNames from 'classnames'
 import BuyTickets from '../../components/BuyTickets'
 import ConvinceYourBoss from '../../components/ConvinceYourBoss'
@@ -10,7 +10,7 @@ import ConvinceYourBoss from '../../components/ConvinceYourBoss'
 class SchedulePage extends Component {
   render() {
     const { location } = this.props
-    const { date = 'sept7' } = queryString.parse(location.search)
+    const { date = 'sept7' } = qs.parse(location.search)
 
     return (
       <section className={`container ${styles['schedule-page']}`}>
