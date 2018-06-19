@@ -1,15 +1,15 @@
 [
   {
-    "name": "Shelley Vohr",
-    "company": "Github",
-    "topic": "Electron",
-    "imgSlug": "speaker-shelley.png"
+    "name": "Jen Luker",
+    "company": "Formidable Labs",
+    "topic": "A11Y & Accessibility",
+    "imgSlug": "speaker-jen-luker.png"
   },
   {
     "name": "Desmond Brand",
     "company": "Flexport",
     "topic": "React + Rails",
-    "imgSlug": "speaker-desmond.png"
+    "imgSlug": "speaker-desmond-brand.png"
   },
   {
     "name": "Brian Leroux",
@@ -24,22 +24,22 @@
     "imgSlug": "speaker-laurie-voss.png"
   },
   {
+    "name": "Amjad Masad",
+    "company": "Repl.it",
+    "topic": "Extensible Web IDE With React",
+    "imgSlug": "speaker-amjad-masad.png"
+  },
+  {
+    "name": "Lauren Tan",
+    "company": "Netflix",
+    "topic": "TBA",
+    "imgSlug": "speaker-lauren-tan.png"
+  },
+  {
     "name": "Ali Butler Glenesk",
     "company": "Curai",
     "topic": "Teaching React",
     "imgSlug": null
-  },
-  {
-    "name": "Maja Wichrowska",
-    "company": "Airbnb",
-    "topic": "RTL Languages",
-    "imgSlug": "speaker-maja.png"
-  },
-  {
-    "name": "Cristiano Calcagno",
-    "company": "Facebook",
-    "topic": "ReasonReact & Localstate",
-    "imgSlug": "speaker-cristiano.png"
   },
   {
     "name": "Brian Holt",
@@ -54,9 +54,9 @@
     "imgSlug": "speaker-ryan.png"
   },
   {
-    "name": "Stephanie He",
-    "company": "Flexport",
-    "topic": "Code Splitting & Scaling",
-    "imgSlug": "speaker-stephanie.png"
+    "name": "James McNamara",
+    "company": "Chosen.fyi",
+    "topic": "Functional Lenses",
+    "imgSlug": "speaker-james.png"
   }
 ]

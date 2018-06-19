@@ -1,5 +1,6 @@
 import styles from './speakers.module.css'
 import React, { Component } from 'react'
+import Link from 'gatsby-link'
 import Speaker from './Speaker'
 import speakers from './speakers.json'
 
@@ -26,7 +27,7 @@ const Speakers = () => (
           imgSlug="speaker-brian-douglas.png"
         />
       </div>
-      <a href="#">full schedule of talks</a>
+      <Link to="/schedule">full schedule of talks</Link>
     </main>
   </section>
 )

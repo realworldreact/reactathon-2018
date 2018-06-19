@@ -10,6 +10,15 @@
   font-family: Arcade, "Courier New", monospace;
 }
 
+.speakers a {
+  text-decoration: none;
+  color: black;
+}
+
+.speakers a:hover {
+  color: #ff6400;
+}
+
 .speakers main {
   background: rgba(255, 255, 255, .8);
   border-radius: 40px;
