@@ -18,7 +18,7 @@ class SchedulePage extends Component {
         <div style={{ margin: 'auto', marginTop: 25, marginBottom: 60 }}>
           <div style={{ display: 'flex', justifyContent: 'center' }}>
             <Link
-              to="?date=sept7"
+              to="/schedule?date=sept7"
               className={classNames(styles.tab, {
                 [styles.active]: date === 'sept7',
               })}
@@ -26,7 +26,7 @@ class SchedulePage extends Component {
               Sept 7
             </Link>
             <Link
-              to="?date=sept8"
+              to="/schedule?date=sept8"
               className={classNames(styles.tab, {
                 [styles.active]: date === 'sept8',
               })}
