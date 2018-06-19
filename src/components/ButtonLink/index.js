@@ -1,12 +1,12 @@
 import React from 'react'
+import Link from 'gatsby-link'
 import Fade from 'react-reveal/Fade'
-import styles from './buttonLink.module.css'
 
 const ButtonLink = ({ fadeIn = false, url, children }) => {
   const body = (
-    <a href={url} className={styles.btn} target="_blank">
+    <Link to={url} className="btn" target="_blank">
       {children}
-    </a>
+    </Link>
   )
 
   return fadeIn ? (
