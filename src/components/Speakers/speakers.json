@@ -8,7 +8,7 @@
   {
     "name": "Desmond Brand",
     "company": "Flexport",
-    "topic": "React + Rails",
+    "topic": "Code Splitting",
     "imgSlug": "speaker-desmond-brand.png"
   },
   {
@@ -18,7 +18,7 @@
     "imgSlug": "speaker-brian-leroux.png"
   },
   {
-    "name": "Lauri Voss",
+    "name": "Laurie Voss",
     "company": "NPM",
     "topic": "NPM",
     "imgSlug": "speaker-laurie-voss.png"
@@ -38,13 +38,13 @@
   {
     "name": "Ali Butler Glenesk",
     "company": "Curai",
-    "topic": "Teaching React",
-    "imgSlug": null
+    "topic": "Teaching React to Junior Devs",
+    "imgSlug": "speaker-ali.png"
   },
   {
     "name": "Brian Holt",
     "company": "Microsoft",
-    "topic": "Performance Optimizations",
+    "topic": "10K or Bust",
     "imgSlug": "speaker-brian-holt.png"
   },
   {

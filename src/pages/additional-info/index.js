@@ -108,7 +108,7 @@ class AdditionalInfoPage extends Component {
             </p>
             <p>
               Along the way, take photos of some famous landmarks and hidden
-              sights to participate in the scavenger hunt to earn prizes!
+              sights to participate in the scavenger hunt to win prizes!
             </p>
             <p>
               Come hang out with us and make some new friends from 11:00am -
