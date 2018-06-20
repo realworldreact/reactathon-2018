@@ -78,7 +78,7 @@
     100% { opacity: 1; }
 }
 
-@-webkit-keyframes MoveUpDown {
+@keyframes MoveUpDown {
     0%, 100% {
         transform: translateY(-5px);
     }
