@@ -11,7 +11,6 @@
     "querystringify": "^2.0.0",
     "react-helmet": "^5.2.0",
     "react-responsive": "^4.0.4",
-    "react-reveal": "1.1.6",
     "react-scroll": "^1.7.6"
   },
   "keywords": [
