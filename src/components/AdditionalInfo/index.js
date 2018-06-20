@@ -1,12 +1,12 @@
 import styles from './additionalInfo.module.css'
 import React from 'react'
-import ButtonLink from '../ButtonLink'
+import Link from 'gatsby-link'
 import github from './github-octocat.png'
 import marriott from './courtyard-marriott.png'
 import cableCar from './cable-car.png'
 import workshops from './workshops-image.png'
 
-const Item = ({ heading, subheading, img, copy }) => (
+const Item = ({ heading, subheading, img, copy, url = '/additional-info' }) => (
   <article>
     <h2>{heading}</h2>
     <main>
@@ -15,7 +15,9 @@ const Item = ({ heading, subheading, img, copy }) => (
         <h3>{subheading}</h3>
         <p>{copy}</p>
         <div className={styles['button-container']}>
-          <ButtonLink url="#">Learn More</ButtonLink>
+          <Link to={url} className="btn">
+            Learn More
+          </Link>
         </div>
       </div>
     </main>
@@ -51,6 +53,7 @@ const AdditionalInfo = () => (
         subheading="New Workshops"
         img={<img src={workshops} alt="Workshops" />}
         copy="Want to get more in depth on a subject? We're offering a number of technical workshops from leaders in the industry."
+        url="/workshops"
       />
     </main>
   </section>
