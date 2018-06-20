@@ -13,16 +13,6 @@ const Conference = () => (
       hang out with and learn from some of the brightest minds and best speakers
       in the JS/React community.
     </p>
-    <p style={{ marginTop: 15 }}>
-      Want to give a talk yourself? Our{' '}
-      <a
-        href="https://docs.google.com/forms/d/e/1FAIpQLSc31T6Nr_xmYk5ACIqG7S8jmXpWKXpi9R-eFEXzYmL-8Xz4Ew/viewform?usp=sf_link"
-        target="_blank"
-      >
-        CFP is open
-      </a>{' '}
-      until June 20.{' '}
-    </p>
   </section>
 )
 
