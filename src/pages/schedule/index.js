@@ -10,7 +10,7 @@ import ConvinceYourBoss from '../../components/ConvinceYourBoss'
 class SchedulePage extends Component {
   render() {
     const { location } = this.props
-    const { date = 'sept7' } = qs.parse(location.search)
+    const { date = '2018-09-07' } = qs.parse(location.search)
 
     return (
       <section className={`container ${styles['schedule-page']}`}>
@@ -18,17 +18,17 @@ class SchedulePage extends Component {
         <div style={{ margin: 'auto', marginTop: 25, marginBottom: 60 }}>
           <div style={{ display: 'flex', justifyContent: 'center' }}>
             <Link
-              to="/schedule?date=sept7"
+              to="/schedule?date=2018-09-07"
               className={classNames(styles.tab, {
-                [styles.active]: date === 'sept7',
+                [styles.active]: date === '2018-09-07',
               })}
             >
               Sept 7
             </Link>
             <Link
-              to="/schedule?date=sept8"
+              to="/schedule?date=2018-09-08"
               className={classNames(styles.tab, {
-                [styles.active]: date === 'sept8',
+                [styles.active]: date === '2018-09-08',
               })}
             >
               Sept 8
