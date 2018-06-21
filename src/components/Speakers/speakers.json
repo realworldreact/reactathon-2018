@@ -3,60 +3,80 @@
     "name": "Jen Luker",
     "company": "Formidable Labs",
     "topic": "A11Y & Accessibility",
-    "imgSlug": "speaker-jen-luker.png"
+    "imgSlug": "speaker-jen-luker.png",
+    "twitter": "#",
+    "github": "#"
   },
   {
     "name": "Desmond Brand",
     "company": "Flexport",
     "topic": "Code Splitting",
-    "imgSlug": "speaker-desmond-brand.png"
+    "imgSlug": "speaker-desmond-brand.png",
+    "twitter": "#",
+    "github": "#"
   },
   {
     "name": "Brian Leroux",
     "company": "Begin.com",
     "topic": "Beyond React",
-    "imgSlug": "speaker-brian-leroux.png"
+    "imgSlug": "speaker-brian-leroux.png",
+    "twitter": "#",
+    "github": "#"
   },
   {
     "name": "Laurie Voss",
     "company": "NPM",
     "topic": "NPM",
-    "imgSlug": "speaker-laurie-voss.png"
+    "imgSlug": "speaker-laurie-voss.png",
+    "twitter": "#",
+    "github": "#"
   },
   {
     "name": "Amjad Masad",
     "company": "Repl.it",
     "topic": "Extensible Web IDE With React",
-    "imgSlug": "speaker-amjad-masad.png"
+    "imgSlug": "speaker-amjad-masad.png",
+    "twitter": "#",
+    "github": "#"
   },
   {
     "name": "Lauren Tan",
     "company": "Netflix",
     "topic": "TBA",
-    "imgSlug": "speaker-lauren-tan.png"
+    "imgSlug": "speaker-lauren-tan.png",
+    "twitter": "#",
+    "github": "#"
   },
   {
     "name": "Ali Butler Glenesk",
     "company": "Curai",
     "topic": "Teaching React to Junior Devs",
-    "imgSlug": "speaker-ali.png"
+    "imgSlug": "speaker-ali.png",
+    "twitter": "#",
+    "github": "#"
   },
   {
     "name": "Brian Holt",
     "company": "Microsoft",
     "topic": "10K or Bust",
-    "imgSlug": "speaker-brian-holt.png"
+    "imgSlug": "speaker-brian-holt.png",
+    "twitter": "#",
+    "github": "#"
   },
   {
     "name": "Ryan Burgess",
     "company": "Netflix",
     "topic": "A/B Testing at Scale",
-    "imgSlug": "speaker-ryan.png"
+    "imgSlug": "speaker-ryan.png",
+    "twitter": "#",
+    "github": "#"
   },
   {
     "name": "James McNamara",
     "company": "Chosen.fyi",
     "topic": "Functional Lenses",
-    "imgSlug": "speaker-james.png"
+    "imgSlug": "speaker-james.png",
+    "twitter": "#",
+    "github": "#"
   }
 ]
