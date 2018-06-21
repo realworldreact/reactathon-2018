@@ -26,13 +26,13 @@ function formatDate(date) {
 
 const WorkshopCard = ({
   title,
-  skillLevel,
+  skillLevel = '',
   photo,
   instructor,
   position,
   company,
-  prerequisites,
-  descriptions,
+  prerequisites = [],
+  descriptions = [],
   time,
   length,
 }) => (
