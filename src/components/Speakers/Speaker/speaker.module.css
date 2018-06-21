@@ -45,18 +45,27 @@
   color: white;
 }
 
-.info-row {
-  display: flex;
-  align-items: center;
-  margin: 5px 0;
+.speaker p.company {
+  font-size: 15px;
+  font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  margin-bottom: 10px;
 }
 
-.icon-container {
-  display: flex;
-  width: 30px;
-  min-width: 30px;
-  margin-right: 10px;
-  justify-content: center;
+.speaker p.topic {
+  color: #ff6400;
+}
+
+.social-media-container {
+  margin-top: 5px;
+}
+
+.social-media-container svg {
+  margin-right: 20px;
+  width: 24px;
+}
+
+.speaker:hover .social-media-container svg {
+  fill: white;
 }
 
 @media only screen and (min-width: 480px) {
