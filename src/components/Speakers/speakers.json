@@ -10,32 +10,32 @@
   {
     "name": "Desmond Brand",
     "company": "Flexport",
-    "topic": "Code Splitting",
+    "topic": "Optimizing Performance with Code Splitting",
     "imgSlug": "speaker-desmond-brand.png",
-    "twitter": "#",
-    "github": "#"
-  },
-  {
-    "name": "Brian Leroux",
-    "company": "Begin.com",
-    "topic": "Beyond React",
-    "imgSlug": "speaker-brian-leroux.png",
-    "twitter": "#",
-    "github": "#"
-  },
-  {
-    "name": "Laurie Voss",
-    "company": "NPM",
-    "topic": "NPM",
-    "imgSlug": "speaker-laurie-voss.png",
     "twitter": "#",
     "github": "#"
   },
   {
     "name": "Amjad Masad",
     "company": "Repl.it",
-    "topic": "Extensible Web IDE With React",
+    "topic": "Repl.it plugins in React & Redux",
     "imgSlug": "speaker-amjad-masad.png",
+    "twitter": "#",
+    "github": "#"
+  },
+  {
+    "name": "Laurie Voss",
+    "company": "NPM",
+    "topic": "10 things you didn't know about NPM",
+    "imgSlug": "speaker-laurie-voss.png",
+    "twitter": "#",
+    "github": "#"
+  },
+  {
+    "name": "Brian Leroux",
+    "company": "Begin.com",
+    "topic": "Vanilla JS: Capabilities & Trajectory",
+    "imgSlug": "speaker-brian-leroux.png",
     "twitter": "#",
     "github": "#"
   },
@@ -48,17 +48,9 @@
     "github": "#"
   },
   {
-    "name": "Ali Butler Glenesk",
-    "company": "Curai",
-    "topic": "Teaching React to Junior Devs",
-    "imgSlug": "speaker-ali.png",
-    "twitter": "#",
-    "github": "#"
-  },
-  {
     "name": "Brian Holt",
     "company": "Microsoft",
-    "topic": "10K or Bust",
+    "topic": "10K or Bust: The delicate power of webpack & babel",
     "imgSlug": "speaker-brian-holt.png",
     "twitter": "#",
     "github": "#"
@@ -74,8 +66,16 @@
   {
     "name": "James McNamara",
     "company": "Chosen.fyi",
-    "topic": "Functional Lenses",
+    "topic": "Functional Lenses in JavaScript",
     "imgSlug": "speaker-james.png",
+    "twitter": "#",
+    "github": "#"
+  },
+  {
+    "name": "Eve Porcello",
+    "company": "Moon Highway",
+    "topic": "⚡⚡GraphQL in 3 Components⚡⚡",
+    "imgSlug": "speaker-eve.png",
     "twitter": "#",
     "github": "#"
   }
