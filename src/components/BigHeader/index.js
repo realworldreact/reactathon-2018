@@ -54,7 +54,9 @@ class BigHeader extends Component {
             alt="yellow bug"
             className={styles['yellow-bug']}
           />
-          <a href="#">Super Early Bird Tickets Now on Sale!</a>
+          <a
+            style={{ paddingTop: 15, paddingBottom: 15 }}
+            href="#">Buy Tickets</a>
         </div>
         <Bug src={bug1} alt="bug 1" top={170} left="10%" />
         <Bug src={bug1} alt="bug 1" top={150} right="8%" />
