@@ -26,7 +26,7 @@ const Item = ({ heading, subheading, img, copy, url = '/additional-info' }) => (
 
 const AdditionalInfo = () => (
   <section className={`container ${styles['additional-info']}`}>
-    <h1 style={{ marginTop: 100, marginBottom: 50 }}>Additional Info</h1>
+    <h1 style={{ paddingTop: 50, marginBottom: 50 }}>Additional Info</h1>
     <main>
       <Item
         heading="Venue"
