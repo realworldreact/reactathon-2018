@@ -1,5 +1,6 @@
 import styles from './bigHeader.module.css'
 import React, { Component } from 'react'
+import Fade from 'react-reveal/Fade'
 import githubWhiteLogo from './github-logo-white@2x.png'
 import rwrLogo from './rwr-logo-white@2x.png'
 import reactathonLogo from './reactathon-logo.svg'
@@ -54,9 +55,11 @@ class BigHeader extends Component {
             alt="yellow bug"
             className={styles['yellow-bug']}
           />
-          <a
-            style={{ paddingTop: 15, paddingBottom: 15 }}
-            href="#">Buy Tickets</a>
+          <Fade delay={1000} bottom>
+            <a style={{ paddingTop: 15, paddingBottom: 15 }} href="#">
+              Buy Tickets
+            </a>
+          </Fade>
         </div>
         <Bug src={bug1} alt="bug 1" top={170} left="10%" />
         <Bug src={bug1} alt="bug 1" top={150} right="8%" />
