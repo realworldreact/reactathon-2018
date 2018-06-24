@@ -1,0 +1,16 @@
+.code-of-conduct-page {
+  margin: 100px auto 60px auto;
+  width: 94%;
+  max-width: 700px;
+  text-align: center;
+}
+
+.copy {
+  margin-bottom: 100px;
+}
+
+.copy p {
+  text-align: left;
+  font-size: 16px;
+  margin-bottom: 16px;
+}
