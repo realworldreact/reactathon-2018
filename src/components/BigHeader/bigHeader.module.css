@@ -34,6 +34,7 @@
 
 .big-header a {
     color: #FFFA42;
+    cursor: pointer;
 }
 
 .big-header a:hover {

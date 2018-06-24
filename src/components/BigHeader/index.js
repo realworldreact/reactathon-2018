@@ -1,5 +1,6 @@
 import styles from './bigHeader.module.css'
 import React, { Component } from 'react'
+import { Link as ReactScrollLink } from 'react-scroll'
 import Fade from 'react-reveal/Fade'
 import githubWhiteLogo from './github-logo-white@2x.png'
 import rwrLogo from './rwr-logo-white@2x.png'
@@ -7,6 +8,7 @@ import reactathonLogo from './reactathon-logo.svg'
 import bug1 from './bug-gray-1.svg'
 import bug2 from './bug-gray-2.svg'
 import yellowBug from './bug-yellow.svg'
+import { BUY_TICKETS_ID } from '../../constants'
 
 const Bug = ({ className, src, alt, top, right, bottom, left }) => (
   <img
@@ -56,9 +58,9 @@ class BigHeader extends Component {
             className={styles['yellow-bug']}
           />
           <Fade delay={1000} bottom>
-            <a style={{ paddingTop: 15, paddingBottom: 15 }} href="#">
+            <ReactScrollLink to={BUY_TICKETS_ID} smooth>
               Buy Tickets
-            </a>
+            </ReactScrollLink>
           </Fade>
         </div>
         <Bug src={bug1} alt="bug 1" top={170} left="10%" />
