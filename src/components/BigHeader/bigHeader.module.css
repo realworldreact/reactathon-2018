@@ -15,6 +15,7 @@
     padding: 50px 20px;
     align-items: center;
     text-align: center;
+    overflow: hidden;
 }
 
 .big-header * {
@@ -35,6 +36,8 @@
 .big-header a {
     color: #FFFA42;
     cursor: pointer;
+    transform: translateY(100px);
+    opacity: 0;
 }
 
 .big-header a:hover {
@@ -42,9 +45,17 @@
     text-decoration: none;
 }
 
+.big-header a.ready {
+    transition-property: opacity, transform;
+    transition-duration: 1s;
+    transition-delay: .3s;
+    transform: translateY(0);
+    opacity: 1;
+}
+
 .bug {
     display: none;
-    animation: MoveUpDown 2s linear infinite;
+    animation: move-up-and-down 2s linear infinite;
     animation-timing-function: ease-in-out;
 }
 
@@ -79,7 +90,7 @@
     100% { opacity: 1; }
 }
 
-@keyframes MoveUpDown {
+@keyframes move-up-and-down {
     0%, 100% {
         transform: translateY(-5px);
     }

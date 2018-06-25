@@ -1,13 +1,14 @@
 import styles from './bigHeader.module.css'
 import React, { Component } from 'react'
 import { Link as ReactScrollLink } from 'react-scroll'
-import Fade from 'react-reveal/Fade'
+import classNames from 'classnames'
 import githubWhiteLogo from './github-logo-white@2x.png'
 import rwrLogo from './rwr-logo-white@2x.png'
 import reactathonLogo from './reactathon-logo.svg'
 import bug1 from './bug-gray-1.svg'
 import bug2 from './bug-gray-2.svg'
 import yellowBug from './bug-yellow.svg'
+import backgroundSpace from './background-space.png'
 import { BUY_TICKETS_ID } from '../../constants'
 
 const Bug = ({ className, src, alt, top, right, bottom, left }) => (
@@ -27,6 +28,14 @@ const Bug = ({ className, src, alt, top, right, bottom, left }) => (
 )
 
 class BigHeader extends Component {
+  state = {
+    backgroundImageLoaded: false,
+  }
+
+  onBackgroundImageLoad = () => {
+    this.setState({ backgroundImageLoaded: true })
+  }
+
   render() {
     return (
       <header className={styles['big-header']}>
@@ -57,17 +66,27 @@ class BigHeader extends Component {
             alt="yellow bug"
             className={styles['yellow-bug']}
           />
-          <Fade delay={1000} bottom>
-            <ReactScrollLink to={BUY_TICKETS_ID} smooth>
-              Buy Tickets
-            </ReactScrollLink>
-          </Fade>
+          <ReactScrollLink
+            to={BUY_TICKETS_ID}
+            smooth
+            className={classNames({
+              [styles.ready]: this.state.backgroundImageLoaded,
+            })}
+          >
+            Buy Tickets
+          </ReactScrollLink>
         </div>
         <Bug src={bug1} alt="bug 1" top={170} left="10%" />
         <Bug src={bug1} alt="bug 1" top={150} right="8%" />
         <Bug src={bug1} alt="bug 1" top={340} right="15%" />
         <Bug src={bug2} alt="bug 2" top={40} right="25%" />
         <Bug src={bug2} alt="bug 2" bottom={40} left="8%" />
+        <img
+          src={backgroundSpace}
+          alt="background space"
+          style={{ display: 'none' }}
+          onLoad={this.onBackgroundImageLoad}
+        />
       </header>
     )
   }
