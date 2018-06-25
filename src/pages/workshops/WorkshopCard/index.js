@@ -56,7 +56,7 @@ const WorkshopCard = ({
       <div style={{ minWidth: 250 }}>
         {/* TODO: Uncomment this when workshops.json updated with new info */}
         {/*<img*/}
-        {/*src={require(`../../../components/Speakers/images/${photo}`)}*/}
+        {/*src={require(`../../../assets/speakers/${photo}`)}*/}
         {/*alt="speaker photo"*/}
         {/*style={{ width: 100 }}*/}
         {/*/>*/}

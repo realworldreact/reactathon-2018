@@ -7,7 +7,7 @@ const Speaker = ({ name, company, topic, imgSlug, twitter, github }) => (
   <div className={styles.speaker}>
     {imgSlug ? (
       <img
-        src={require(`../images/${imgSlug}`)}
+        src={require(`../../../assets/speakers/${imgSlug}`)}
         alt={`${name}'s image`}
         className={styles['speaker-image']}
       />
