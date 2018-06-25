@@ -3,10 +3,11 @@ import React, { Component } from 'react'
 import a11y from './topic-table-a11y.png'
 import graphql from './topic-table-graphql.png'
 import d3 from './topic-table-d3.png'
-import jenLurker from '../../assets/speakers/speaker-jen-luker.png'
+import jenLuker from '../../assets/speakers/speaker-jen-luker.png'
 import erinDoyle from '../../assets/speakers/speaker-erin.png'
 import jonWong from '../../assets/speakers/speaker-jon.png'
 import swizecTeller from '../../assets/speakers/speaker-swizec.png'
+import evePorcello from '../../assets/speakers/speaker-eve.png'
 
 const MAX_CHARS = 410
 
@@ -99,14 +100,14 @@ const WelcomeReception = () => (
         />
       </div>
       <Expert
-        avatarSrc={jenLurker}
-        name="Jen Lurker"
-        bio="Jen Lurker is a Lead software engineer at Formidable, a BookBytes podcast co-host, and a member of the RxJS learning team. She has spent a majority of her decade-long career as a full-stack developer using PHP, Javascript, and CSS, but has a particular fondness for front end technologies. Jen trains others in ReactJS and accessibility, loves optimizing webpack builds, and codes apps in React Native."
+        avatarSrc={jenLuker}
+        name="Jen Luker"
+        bio="Jen Luker is a Lead software engineer at Formidable, a BookBytes podcast co-host, and a member of the RxJS learning team. She has spent a majority of her decade-long career as a full-stack developer using PHP, Javascript, and CSS, but has a particular fondness for front end technologies. Jen trains others in ReactJS and accessibility, loves optimizing webpack builds, and codes apps in React Native. When she's not finding solutions, learning new technologies, or reading, her spare time is spent spinning yarn from raw wool and knitting; she's even been known to 3D print her own tools for the job. Jen is also fascinated by all things space, enjoys vintage cars, and is always looking for good conversation."
       />
       <Expert
         avatarSrc={erinDoyle}
         name="Erin Doyle"
-        bio="Erin Doyle works as a full-stack Web Developer and Scrum Master at CashStar in Portland, Maine. She loves all things JavaScript and has been deeply focused on React for the last 2+ years. Her most notable OSS contributions include: react-a11y, react-dates, react-timezone, react-times, and react-redux-form. Much of the last 1-2 years she has been worki TODO: fill in the rest of the copy here. asdfasdfasfasdfaasdf"
+        bio="Erin Doyle works as a full-stack Web Developer and Scrum Master at CashStar in Portland, Maine.  She loves all things JavaScript and has been deeply focused on React for the last 2+ years.  Her most notable OSS contributions include: react-a11y, react-dates, react-timezone, react-times, and react-redux-form.  Much of the last 1-2 years she has been working on creating an eCommerce web application that is not only WCAG compliant but an actual pleasant user experience for those with disabilities.  She now tries to be a local evangelist for accessibility and the accessible user experience.  She is also passionate about code quality and writing beautiful code, using a pragmatic approach to moving quickly and developing iteratively, continuous integration and deployment, and documentation and process improvement. As a native Floridian, she's still getting used to life in Maine with her husband and two boys.  In her free time (when she finds it on rare occasions!), she's a jack of all hobbies, master of none, which include but are not limited to: reading, movies, video games, knitting, crocheting, meditating, learning to play banjo, cooking, baking, mechanical keyboards, running, hiking, yoga, gardening, attendings lots of the kids' sporting events, loving her fur babies (cats and dogs), etc."
       />
     </div>
     <div className={styles['topic-container']}>
@@ -118,8 +119,9 @@ const WelcomeReception = () => (
         />
       </div>
       <Expert
+        avatarSrc={evePorcello}
         name="Eve Porcello"
-        bio="Eve is the co-owner of Moon Highway, a training and curriculum development company based in Northern California. She is an active corporate trainer, creates courses for LinkedIn Learning, and is the co-author of O'Reilly's Learning GraphQL and Learning React."
+        bio="Eve Porcello is the co-owner of Moon Highway, a training and curriculum development company based in Northern California. She is an active corporate trainer, creates courses for LinkedIn Learning, and is the co-author of O'Reilly's Learning GraphQL and Learning React."
       />
       <Expert
         avatarSrc={jonWong}

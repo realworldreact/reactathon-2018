@@ -24,9 +24,9 @@ class BuyTickets extends Component {
     if (activeTab === 1) {
       return <RoundOneUniversteTicketWidget />
     } else if (activeTab === 2) {
-      return <p>Round 2 tickets not on sale yet.</p>
+      return <p>Round 2 tickets go on sale July 16</p>
     } else if (activeTab === 3) {
-      return <p>Round 3 tickets not on sale yet.</p>
+      return <p>Round 3 tickets go on sale August 6</p>
     }
   }
 

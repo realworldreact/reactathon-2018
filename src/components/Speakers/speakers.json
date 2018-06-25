@@ -4,64 +4,64 @@
     "company": "Formidable Labs",
     "topic": "A11Y & Accessibility",
     "imgSlug": "speaker-jen-luker.png",
-    "twitter": "#",
-    "github": "#"
+    "twitter": "https://twitter.com/knitcodemonkey",
+    "github": "https://github.com/knitcodemonkey"
   },
   {
     "name": "Desmond Brand",
     "company": "Flexport",
     "topic": "Optimizing Performance with Code Splitting",
     "imgSlug": "speaker-desmond-brand.png",
-    "twitter": "#",
-    "github": "#"
+    "twitter": "https://twitter.com/dmnd_",
+    "github": "https://github.com/dmnd"
   },
   {
     "name": "Amjad Masad",
     "company": "Repl.it",
     "topic": "Repl.it plugins in React & Redux",
     "imgSlug": "speaker-amjad-masad.png",
-    "twitter": "#",
-    "github": "#"
+    "twitter": "https://twitter.com/amasad",
+    "github": "https://github.com/amasad"
   },
   {
     "name": "Laurie Voss",
     "company": "NPM",
     "topic": "10 things you didn't know about NPM",
     "imgSlug": "speaker-laurie-voss.png",
-    "twitter": "#",
-    "github": "#"
+    "twitter": "https://twitter.com/seldo",
+    "github": "https://github.com/seldo"
   },
   {
     "name": "Brian Leroux",
     "company": "Begin.com",
     "topic": "Vanilla JS: Capabilities & Trajectory",
     "imgSlug": "speaker-brian-leroux.png",
-    "twitter": "#",
-    "github": "#"
+    "twitter": "https://twitter.com/brianleroux",
+    "github": "https://github.com/brianleroux"
   },
   {
     "name": "Lauren Tan",
     "company": "Netflix",
     "topic": "TBA",
     "imgSlug": "speaker-lauren-tan.png",
-    "twitter": "#",
-    "github": "#"
+    "twitter": "https://twitter.com/sugarpirate_",
+    "github": "https://github.com/poteto"
   },
   {
     "name": "Brian Holt",
     "company": "Microsoft",
     "topic": "10K or Bust: The delicate power of webpack & babel",
     "imgSlug": "speaker-brian-holt.png",
-    "twitter": "#",
-    "github": "#"
+    "twitter": "https://twitter.com/holtbt",
+    "github": "https://github.com/btholt"
   },
   {
     "name": "Ryan Burgess",
     "company": "Netflix",
     "topic": "A/B Testing at Scale",
     "imgSlug": "speaker-ryan.png",
-    "twitter": "#",
-    "github": "#"
+    "twitter": "https://twitter.com/burgessdryan",
+    "github": "https://github.com/ryanburgess"
   },
   {
     "name": "James McNamara",
@@ -69,14 +69,14 @@
     "topic": "Functional Lenses in JavaScript",
     "imgSlug": "speaker-james.png",
     "twitter": "#",
-    "github": "#"
+    "github": "https://github.com/jamesmcnamara"
   },
   {
     "name": "Eve Porcello",
     "company": "Moon Highway",
     "topic": "⚡⚡GraphQL in 3 Components⚡⚡",
     "imgSlug": "speaker-eve.png",
-    "twitter": "#",
-    "github": "#"
+    "twitter": "https://twitter.com/eveporcello",
+    "github": "https://github.com/eveporcello"
   }
 ]
