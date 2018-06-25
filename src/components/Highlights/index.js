@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import Link from 'gatsby-link'
 
 class Highlights extends Component {
   state = {
@@ -65,9 +66,7 @@ class Highlights extends Component {
         <p style={{ marginTop: 15 }}>
           Real World React is committed to an inclusive and harassment-free
           atmosphere. Please review our{' '}
-          <a href="http://jsconf.com/codeofconduct.html" target="_blank">
-            Code of Conduct
-          </a>.
+          <Link to="/code-of-conduct">Code of Conduct</Link>.
         </p>
       </section>
     )
