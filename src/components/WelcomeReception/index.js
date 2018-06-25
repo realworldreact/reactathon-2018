@@ -24,7 +24,7 @@ class Expert extends Component {
     return this.props.avatarSrc ? (
       <img
         src={this.props.avatarSrc}
-        alt={`${name} avatar`}
+        alt={`${this.props.name} avatar`}
         className={styles.avatar}
       />
     ) : (
