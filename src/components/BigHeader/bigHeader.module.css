@@ -6,10 +6,6 @@
     background-position: center;
     height: 100%;
     width: 100%;
-    animation-name: gracefulimage;
-    animation-duration: 0.3s;
-    animation-iteration-count: 1;
-    animation-timing-function: ease-in;
     display: flex;
     flex-direction: column;
     padding: 50px 20px;
@@ -48,7 +44,6 @@
 .big-header a.ready {
     transition-property: opacity, transform;
     transition-duration: 1s;
-    transition-delay: .3s;
     transform: translateY(0);
     opacity: 1;
 }
@@ -82,12 +77,6 @@
     width: 100%;
     max-width: 494px;
     margin-bottom: 40px;
-}
-
-@keyframes gracefulimage {
-    0%   { opacity: 0.25; }
-    50%  { opacity: 0.5; }
-    100% { opacity: 1; }
 }
 
 @keyframes move-up-and-down {
