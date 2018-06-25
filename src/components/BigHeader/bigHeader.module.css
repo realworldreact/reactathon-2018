@@ -6,15 +6,12 @@
     background-position: center;
     height: 100%;
     width: 100%;
-    animation-name: gracefulimage;
-    animation-duration: 0.3s;
-    animation-iteration-count: 1;
-    animation-timing-function: ease-in;
     display: flex;
     flex-direction: column;
     padding: 50px 20px;
     align-items: center;
     text-align: center;
+    overflow: hidden;
 }
 
 .big-header * {
@@ -35,6 +32,8 @@
 .big-header a {
     color: #FFFA42;
     cursor: pointer;
+    transform: translateY(100px);
+    opacity: 0;
 }
 
 .big-header a:hover {
@@ -42,9 +41,16 @@
     text-decoration: none;
 }
 
+.big-header a.ready {
+    transition-property: opacity, transform;
+    transition-duration: 1s;
+    transform: translateY(0);
+    opacity: 1;
+}
+
 .bug {
     display: none;
-    animation: MoveUpDown 2s linear infinite;
+    animation: move-up-and-down 2s linear infinite;
     animation-timing-function: ease-in-out;
 }
 
@@ -73,13 +79,7 @@
     margin-bottom: 40px;
 }
 
-@keyframes gracefulimage {
-    0%   { opacity: 0.25; }
-    50%  { opacity: 0.5; }
-    100% { opacity: 1; }
-}
-
-@keyframes MoveUpDown {
+@keyframes move-up-and-down {
     0%, 100% {
         transform: translateY(-5px);
     }
