@@ -16,16 +16,16 @@ class CodeOfConductPage extends Component {
               color: 'black',
             }}
           >
-            We take our code of conduct seriously.
+            Please take the time to read our code of conduct.
           </p>
           <p>
-            All delegates, speakers, sponsors and volunteers at any JSConf event
+            All delegates, speakers, sponsors and volunteers at any Reactathon event
             are required to agree with the following code of conduct. Organizers
             will enforce this code throughout the event.
           </p>
           <p style={{ marginBottom: 0 }}>The Quick Version</p>
           <p>
-            JSConf is dedicated to providing a harassment-free conference
+            Real World React is dedicated to providing a harassment-free conference
             experience for everyone, regardless of gender, gender identity and
             expression, age, sexual orientation, disability, physical
             appearance, body size, race, ethnicity, religion (or lack thereof),

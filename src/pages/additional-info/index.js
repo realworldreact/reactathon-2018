@@ -103,7 +103,7 @@ class AdditionalInfoPage extends Component {
               offer in this guided tour! We'll test your stamina by walking up
               some of the city's hidden staircases, passing by tucked-away
               gardens and breathtaking views of the city. Enjoy lunch in San
-              Francisco's Little Italky, or "North Beach" as we call it, and
+              Francisco's Little Italy, or "North Beach" as we call it, and
               then take a ride on the historic cable cars!
             </p>
             <p>

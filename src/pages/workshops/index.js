@@ -8,11 +8,10 @@ const Index = () => (
   <div style={{ marginTop: 100, marginBottom: 100, textAlign: 'center' }}>
     <h1>Workshops</h1>
     <h3 style={{ color: '#535353', marginTop: 20, marginBottom: 50 }}>
-      March 19, 20, and 23
+      September 7
     </h3>
     <div style={{ marginBottom: 50 }}>
       <RegisterNowCallToAction
-        title="GO THROUGH A HYPERLOOP OF PRODUCTIVITY"
         descriptionParagraphs={[
           'We’ve assembled a team of top engineers who build with the technologies they’re teaching every day. From core-contributors and senior engineers well-known on the conference and workshop circuit, you’ll learn in hours what they’ve have mastered over years.',
         ]}
