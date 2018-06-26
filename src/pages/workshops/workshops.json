@@ -1,43 +1,32 @@
 [
   {
-    "title": "React Fundamentals",
-    "skillLevel": "beginner",
-    "instructor": "Ben Ilegbodu",
-    "photo": "ben-ilegbodu",
-    "position": "Senior UI Engineer",
-    "company": "Eventbrite",
-    "prerequisites": [
-      "• Working Knowledge of JavaScript",
-      "• Familiarity with ES6+"
-    ],
+    "title": "Building Accessible Web Apps with React",
+    "skillLevel": "intermediate",
+    "instructor": "Erin Doyle",
+    "photo": "speaker-erin",
+    "position": "Staff Software Engineer",
+    "company": "CashStar",
+    "prerequisites": [ "• Working Knowledge of JavaScript and HTML", "• Familiarity with ES6+", "• Working knowledge of React" ],
     "descriptions": [
-      {
-        "description": "React is a JavaScript UI library that makes creating reusable components easy and efficient. In this workshop, we’ll cover the critical concepts of React via a series of targeted exercises. While iteratively building an app, we’ll learn how to:",
-        "bullets": [
-          "• Write readable, reusable and composable components",
-          "• Use JSX syntax",
-          "• Work with the Virtual DOM",
-          "• Handle user interactions and synthetic events",
-          "• Leverage ES6 to maintain application state",
-          "• Make API calls",
-          "• Apply component styling",
-          "• Hook into the component lifecycle",
-          "• And more…"
-        ]
-      },
-      {
-        "description": "Prior experience with React is not necessary, but experience with building JavaScript applications will be helpful to hit the ground running. You’ll leave the workshop with all the fundamentals you need to build your own apps with React."
-      }
-    ],
-    "time": "2018-03-19T09:00:00",
-    "length": "Full Day (7 hours)",
-    "ticketWidgetId": "react-fundamentals-workshop-tickets-san-francisco-2MPQ0Y"
-  },
+        {
+          "description": "There is a significant portion of the population that have a disability that impairs their ability to effectively use the web.  For some companies this is a usability concern in the pursuit of not excluding users or customers and for others it's a legal compliance concern.  There are many tools and techniques available today that now make it possible to make our web apps accessible and even provide a great user experience inclusive of all users.  However, it's a broad landscape and can be overwhelming where to start!  This workshop aims to give students a strong head start by covering the following:",
+          "bullets": [
+            "• Learn about the different disability groups and how they are impacted by web in-accessibility", "• Work with tools for inspecting and testing for accessibility issues", "• Learn to access web sites in the same way impaired users do", "• Write accessible and extensible UI elements", "• Write accessible custom UI widgets", "• Iteratively test to see our accessibility issues resolved!"
+          ]
+        },
+        {
+          "description": "By the end of this workshop hopefully students will have a much better understanding of their target users and how to approach their web apps from those perspectives when testing for accessibility.  The tools learned should help jump start students' ability to audit their own web apps for accessibility issues and point them towards how to learn more and effectively resolve those issues.  Finally students will end up with a nice base of example React components that are accessible and can be used or built upon in their own applications."
+        }
+      ],
+    "time": "2018-09-07T01:00:00",
+    "length": "3 hours",
+    "ticketWidgetId": "building-accessible-web-apps-with-react-workshop-tickets-san-francisco-NR9ZX0"
+},
   {
     "title": "Building Data Vizualizations with React + D3",
     "skillLevel": "intermediate",
     "instructor": "Swizec Teller",
-    "photo": "swizec-teller",
+    "photo": "speaker-swizec",
     "position": "Senior Engineer",
     "company": "Yup Technologies",
     "prerequisites": [
@@ -61,71 +50,59 @@
         "description": "By the end of this workshop you’ll have the tools you need to build any dataviz challenge your boss or client throws at you. Even if they ask you to animate 20,000 datapoints on a 5 year old phone."
       }
     ],
-    "time": "2018-03-19T09:00:00",
+    "time": "2018-09-07T09:00:00",
     "length": "Full Day (7 hours)",
-    "ticketWidgetId": "data-visualizations-with-react-d3-workshop-tickets-san-francisco-7DY4KB"
+    "ticketWidgetId": "data-visualizations-with-react-d3-workshop-tickets-san-francisco-CWJMH3"
   },
   {
-    "title": "Building event-driven serverless applications with React & AWS Lambda",
-    "skillLevel": "intermediate",
-    "instructor": "David Wells",
-    "photo": "david-wells",
-    "position": "Senior Engineer",
-    "company": "Serverless",
+    "title": "Getting Started with GraphQL",
+    "skillLevel": "beginner",
+    "instructor": "Eve Porcello",
+    "photo": "speaker-eve",
+    "position": "Software Engineer and Instructor",
+    "company": "Moon Highway",
     "prerequisites": [
-      "• Working Knowledge of JavaScript",
-      "• Familiarity with ES6+",
-      "• Familiarity with React"
+      "• Basic knowledge of JavaScript", "• Knowledge of React", "• Familiarity with Node.js and npm"
     ],
     "descriptions": [
-      {
-        "description": "AWS Lambda takes cloud computing to the next level by empowering you to run full-stack applications without the need to manage or provision servers. The Serverless Framework is an open source technology that facilitates building serverless architectures on Lambda & more.",
-        "bullets": [
-          "• Deploy your applications as independent functions that respond to events",
-          "• Have your backend charge you only when they run, down to the millisecond",
-          "• Set up your apps to scale automatically as needed",
-          "• Learn AWS Lambda",
-          "• Learn the Serverless Framework to stay in your command line and out of the AWS console"
-        ]
-      },
-      {
-        "description": "Improve your app's speed, simplicity, maintainability, and cost-effectiveness with a serverless architecture. Join Serverless engineer David Wells as he walks you through building an app with AWS Lambda & React."
-      }
-    ],
-    "time": "2018-03-23T09:00:00",
+        {
+          "description": "Want to learn GraphQL but not sure where to get started? In this workshop, you'll learn GraphQL from the ground up with a focus on the concepts that are most important to front-end developers. We'll start with an overview of graph theory, followed by learning how to write queries and mutations. Once we understand how to interact with a GraphQL endpoint, you will design your own schema and will connect a GraphQL API to a React user interface.",
+          "bullets": [
+            "• Intro to GraphQL", "• Understanding Graph Theory", "• GraphQL Query Language", "• Schema Design Best Practices", "• GraphQL Clients", "• Apollo Client", "• React Apollo", "• Apollo Link", "• GitHub Authorization"
+          ]
+        },
+        {
+          "description": "Join Eve Porcello, the author of O'Reilly's Learning GraphQL, for this fast-paced, hands-on workshop. You'll leave ready to build modern applications with JavaScript, GraphQL, Apollo, and React."
+        }
+      ],
+    "time": "2018-09-07T09:00:00",
     "length": "Full Day (7 hours)",
-    "ticketWidgetId": "serverless-apps-react-aws-lambda-workshop-tickets-san-francisco-M9W4N0"
+    "ticketWidgetId": "getting-started-with-graphql-tickets-san-francisco-1RM4FY"
   },
   {
-    "title": "Fullstack GraphQL",
+    "title": "Immutable Data Updates with Functional Lenses in Shades.js",
     "skillLevel": "intermediate",
-    "instructor": "Johannes Schickling",
-    "photo": "johannes-schickling",
-    "position": "CEO & Co-founder",
-    "company": "Graphcool",
-    "prerequisites": [
-      "• Working Knowledge of JavaScript",
-      "• Working knowledge of React",
-      "• Familiarity with ES6+"
-    ],
+    "instructor": "James McNamara",
+    "photo": "speaker-james",
+    "position": "Technical Co-Founder",
+    "company": "Chosen.fyi",
+    "prerequisites": [ "• Familiarity with ES6+", "• Familiarity with functional programming topics such as higher-order functions and function currying"  ],
     "descriptions": [
-      {
-        "description": "GraphQL has drastically changed the way how we interact with APIs by providing a strongly-typed layer for client-server communication. This notably improves performance by letting clients request the specific data they need using a simple and declarative syntax. Thanks to the GraphQL schema which serves as the contract for all possible API operations, GraphQL further introduces many benefits to local development workflows (such as compile-time error checks and editor auto-completion) and the overall API tooling space. In this workshop, you will learn how to:",
-        "bullets": [
-          "• Design a GraphQL schema",
-          "• Build an deploy a GraphQL server with Node (or TypeScript) and GraphQL bindings",
-          "• Send GraphQL queries and mutations to read and write data against the API",
-          "• Interact with the API in realtime using GraphQL subscriptions",
-          "• Tie your React components to the GraphQL API using Apollo Client",
-          "• Make the most out of existing GraphQL tools"
-        ]
-      },
-      {
-        "description": null
-      }
-    ],
-    "time": "2018-03-23T09:00:00",
-    "length": "Full Day (7 hours)",
-    "ticketWidgetId": "fullstack-graphql-tickets-san-francisco-6G580R"
+        {
+          "description": "Lenses in Shades.js allow us perform immutable data updates with the syntactic ease of using direct object mutation. But where lenses really shine is when they allow us to succinctly do things that imperative mutation cannot: updating multiple objects at once, updating only objects that match a criterion, or even uniformly updating data with different underlying representations. In this workshop you will learn:",
+          "bullets": [
+            "• The role lenses play in the update process", "• How to create and compose lenses", "• How to create custom lenses: traversals, folds, optionals and virtual lenses", "• How to program in a pointfree style with the shades utilities"
+          ]
+        },
+        {
+          "description": "Additionally, depending on time and interest, we will discuss:",
+  	"bullets": [
+  		"• Integrating lenses with Redux", "• Type-safe usage of lenses and point-free helpers with TypeScript", "• Lens internals"
+  	]
+        }
+      ],
+    "time": "2018-09-07T09:00:00",
+    "length": "Half Day (4 hours)",
+    "ticketWidgetId": "immutable-data-updates-with-functional-lenses-workshop-tickets-san-francisco-YVS0M3"
   }
 ]

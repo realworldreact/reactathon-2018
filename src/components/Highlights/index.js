@@ -29,7 +29,13 @@ class Highlights extends Component {
     return (
       <section
         className="container"
-        style={{ marginTop: 50, marginBottom: 50 }}
+        style={{
+          marginTop: 100,
+          marginBottom: 50,
+          maxWidth: 1100,
+          marginLeft: 'auto',
+          marginRight: 'auto',
+        }}
       >
         <h1>March 2018 Highlights</h1>
         <div
@@ -67,6 +73,16 @@ class Highlights extends Component {
           Real World React is committed to an inclusive and harassment-free
           atmosphere. Please review our{' '}
           <Link to="/code-of-conduct">Code of Conduct</Link>.
+        </p>
+        <p style={{ marginTop: 15 }}>
+          If you would like to be considered for our ticket lottery, please
+          submit an application{' '}
+          <a
+            href="https://docs.google.com/forms/d/e/1FAIpQLSeZMR73AHlsXsEb5kPbK79IrpzB9WV7EOSU_MuNOE9er-f9qA/viewform?usp=sf_link"
+            target="_blank"
+          >
+            here
+          </a>.
         </p>
       </section>
     )

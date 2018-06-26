@@ -30,7 +30,15 @@ const SponsorImage = ({ name, url, imgSrc, style }) => (
 )
 
 const Sponsors = () => (
-  <section style={{ marginTop: 50, marginBottom: 50 }}>
+  <section
+    style={{
+      marginTop: 50,
+      marginBottom: 50,
+      maxWidth: 1100,
+      marginLeft: 'auto',
+      marginRight: 'auto',
+    }}
+  >
     <h1 style={{ marginBottom: 50 }}>Past Sponsors</h1>
     <div>
       <SponsorImage

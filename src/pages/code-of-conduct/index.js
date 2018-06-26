@@ -16,26 +16,26 @@ class CodeOfConductPage extends Component {
               color: 'black',
             }}
           >
-            We take our code of conduct seriously.
+            Please take the time to read our code of conduct.
           </p>
           <p>
-            All delegates, speakers, sponsors and volunteers at any JSConf event
-            are required to agree with the following code of conduct. Organizers
-            will enforce this code throughout the event.
+            All delegates, speakers, sponsors and volunteers at any Reactathon
+            event are required to agree with the following code of conduct.
+            Organizers will enforce this code throughout the event.
           </p>
           <p style={{ marginBottom: 0 }}>The Quick Version</p>
           <p>
-            JSConf is dedicated to providing a harassment-free conference
-            experience for everyone, regardless of gender, gender identity and
-            expression, age, sexual orientation, disability, physical
-            appearance, body size, race, ethnicity, religion (or lack thereof),
-            or technology choices. We do not tolerate harassment of conference
-            participants in any form. Sexual language and imagery is not
-            appropriate for any conference venue, including talks, workshops,
-            parties, Twitter and other online media. Conference participants
-            violating these rules may be sanctioned or expelled from the
-            conference without a refund at the discretion of the conference
-            organisers.
+            Real World React is dedicated to providing a harassment-free
+            conference experience for everyone, regardless of gender, gender
+            identity and expression, age, sexual orientation, disability,
+            physical appearance, body size, race, ethnicity, religion (or lack
+            thereof), or technology choices. We do not tolerate harassment of
+            conference participants in any form. Sexual language and imagery is
+            not appropriate for any conference venue, including talks,
+            workshops, parties, Twitter and other online media. Conference
+            participants violating these rules may be sanctioned or expelled
+            from the conference without a refund at the discretion of the
+            conference organisers.
           </p>
           <p style={{ marginBottom: 0 }}>The Less Quick Version</p>
           <p>

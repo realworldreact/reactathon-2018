@@ -13,11 +13,11 @@ const SmallHeader = () => (
     />
     <nav className={styles.nav}>
       <Link to="/">Home</Link>
-      <Link to="/buy-tickets">Buy Tickets</Link>
+      <Link to="/#buy-tickets">Buy Tickets</Link>
       <Link to="/schedule">Schedule</Link>
       <Link to="/workshops">Workshops</Link>
-      <Link to="/additional-info">Venue</Link>
-      <Link to="/additional-info">Friday Fun Day</Link>
+      <Link to="/additional-info#venue">Venue</Link>
+      <Link to="/additional-info#friday">Friday Fun Day</Link>
     </nav>
   </header>
 )

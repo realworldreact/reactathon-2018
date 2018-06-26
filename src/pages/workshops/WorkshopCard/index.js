@@ -47,20 +47,23 @@ const WorkshopCard = ({
         textAlign: 'left',
       }}
     >
-      <h1 style={{ color: 'white', width: '75%' }}>{title}</h1>
+      <h1 style={{ color: 'white', width: '75%', fontFamily: 'helvetica' }}>
+        {title}
+      </h1>
       <p style={{ fontSize: 14, color: 'white', letterSpacing: '.78px' }}>
         {skillLevel.toUpperCase()}
       </p>
     </header>
     <main className={styles.main}>
       <div style={{ minWidth: 250 }}>
-        {/* TODO: Uncomment this when workshops.json updated with new info */}
-        {/*<img*/}
-        {/*src={require(`../../../assets/speakers/${photo}`)}*/}
-        {/*alt="speaker photo"*/}
-        {/*style={{ width: 100 }}*/}
-        {/*/>*/}
-        <h2>{instructor}</h2>
+        {photo && (
+          <img
+            src={require(`../../../assets/speakers/${photo}.png`)}
+            alt="speaker photo"
+            style={{ width: 100 }}
+          />
+        )}
+        <h2 style={{ fontFamily: 'helvetica' }}>{instructor}</h2>
         <p style={{ fontSize: 14 }}>{position}</p>
         <p style={{ fontSize: 12 }}>{company}</p>
         <div style={{ marginBottom: 30 }}>

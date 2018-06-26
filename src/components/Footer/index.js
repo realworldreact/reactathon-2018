@@ -1,4 +1,5 @@
 import React from 'react'
+import Link from 'gatsby-link'
 import styles from './footer.module.css'
 import footerLogo from '../../assets/sm-reactathon-logo.svg'
 import facebookIcon from './facebook-icon.png'
@@ -16,11 +17,14 @@ const Footer = () => (
   <footer className={styles.footer}>
     <img src={footerLogo} alt="Reactathon logo" style={{ width: 150 }} />
     <nav className={styles.nav} style={{ marginTop: 30 }}>
-      <a href="http://jsconf.com/codeofconduct.html" target="_blank">
-        Code of Conduct
-      </a>
+      <Link to="/">Home</Link>
+      <Link to="/code-of-conduct">Code of Conduct</Link>
+      <Link to="/schedule">Schedule</Link>
+      <Link to="/workshops">Workshops</Link>
+    </nav>
+    <nav className={styles.nav} style={{ marginTop: 15 }}>
       <a
-        href="https://docs.google.com/forms/d/e/1FAIpQLScyKVflWoREo_qWKPO130F86xNX-W3ZARF6BONV_2ILDphURA/viewform?usp=sf_link"
+        href="https://docs.google.com/forms/d/e/1FAIpQLSevaKPp0TQn_rIoEeecXhJjpkyKhqQeukeCXFoYWmqC17n7BA/viewform?usp=sf_link"
         target="_blank"
       >
         Volunteers
@@ -50,7 +54,9 @@ const Footer = () => (
       </a>
     </div>
     <p style={{ marginBottom: 15 }}>Organized by</p>
-    <img src={rwrLogo} alt="real world react logo" style={{ width: 50 }} />
+    <a href="https://www.realworldreact.com" target="_blank">
+      <img src={rwrLogo} alt="real world react logo" style={{ width: 50 }} />
+    </a>
     <EmailSignup />
     <p style={{ marginBottom: 25 }}>&#169; 2018 Real World React, LLC</p>
     <div className={styles['powered-by']}>

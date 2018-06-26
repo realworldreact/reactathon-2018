@@ -27,8 +27,8 @@ const Speakers = () => (
           company="Github"
           topic="Master of Ceremonies"
           imgSlug="speaker-brian-douglas.png"
-          twitter="#"
-          github="#"
+          twitter="https://twitter.com/bdougieyo"
+          github="https://github.com/bdougie"
         />
       </div>
       <Link to="/schedule">full schedule of talks</Link>
