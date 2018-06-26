@@ -56,11 +56,13 @@ const WorkshopCard = ({
     </header>
     <main className={styles.main}>
       <div style={{ minWidth: 250 }}>
-        <img
-          src={require(`../../../assets/speakers/${photo}.png`)}
-          alt="speaker photo"
-          style={{ width: 100 }}
-        />
+        {photo && (
+          <img
+            src={require(`../../../assets/speakers/${photo}.png`)}
+            alt="speaker photo"
+            style={{ width: 100 }}
+          />
+        )}
         <h2 style={{ fontFamily: 'helvetica' }}>{instructor}</h2>
         <p style={{ fontSize: 14 }}>{position}</p>
         <p style={{ fontSize: 12 }}>{company}</p>
