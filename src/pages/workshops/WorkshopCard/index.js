@@ -47,7 +47,9 @@ const WorkshopCard = ({
         textAlign: 'left',
       }}
     >
-      <h1 style={{ color: 'white', width: '75%', fontFamily: 'helvetica' }}>{title}</h1>
+      <h1 style={{ color: 'white', width: '75%', fontFamily: 'helvetica' }}>
+        {title}
+      </h1>
       <p style={{ fontSize: 14, color: 'white', letterSpacing: '.78px' }}>
         {skillLevel.toUpperCase()}
       </p>

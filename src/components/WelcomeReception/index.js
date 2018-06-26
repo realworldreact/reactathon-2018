@@ -151,7 +151,10 @@ const WelcomeReception = () => (
       <p>More topics and moderators to be announced!</p>
       <p>
         You can apply to be a moderator
-        <a href="https://docs.google.com/forms/d/e/1FAIpQLSfOCOjDoipxeqkbCr_nXH3lnskUL6lKV6PUDyjqsZ0wl1KRNA/viewform?usp=sf_link" target="_blank">
+        <a
+          href="https://docs.google.com/forms/d/e/1FAIpQLSfOCOjDoipxeqkbCr_nXH3lnskUL6lKV6PUDyjqsZ0wl1KRNA/viewform?usp=sf_link"
+          target="_blank"
+        >
           {' '}
           here
         </a>.
