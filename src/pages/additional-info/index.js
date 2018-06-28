@@ -67,8 +67,8 @@ class AdditionalInfoPage extends Component {
             </p>
             <p>
               We have secured a preferred rate of $239 per night for conference
-              attendees! Rooms are limited. Book a room from the following link
-              or use code <strong>REACTATHON</strong>
+              attendees! Rooms are limited. Link for preferred rates is coming soon!
+              For now, you can learn more about the hotel at the following link:
             </p>
           </div>
           <a
@@ -77,7 +77,7 @@ class AdditionalInfoPage extends Component {
             target="_blank"
             style={{ margin: '30px auto' }}
           >
-            Book Room
+            Learn More
           </a>
         </article>
         <hr />
