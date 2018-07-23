@@ -67,17 +67,17 @@ class AdditionalInfoPage extends Component {
             </p>
             <p>
               We have secured a preferred rate of $239 per night for conference
-              attendees! Rooms are limited. Link for preferred rates is coming soon!
-              For now, you can learn more about the hotel at the following link:
+              attendees! Rooms are limited. Click the button below to get access
+              to our special discounted rates!:
             </p>
           </div>
           <a
-            href="https://www.marriott.com/hotels/travel/sfocd-courtyard-san-francisco-downtown/"
+            href="https://www.marriott.com/meeting-event-hotels/group-corporate-travel/groupCorp.mi?resLinkData=Reactathon%5Esfocd%60rwrrwra%7Crwrrwrb%60239.00%60USD%60false%604%609/7/18%609/9/18%608/24/18&app=resvlink&stop_mobi=yes"
             className="btn"
             target="_blank"
             style={{ margin: '30px auto' }}
           >
-            Learn More
+            Book Now
           </a>
         </article>
         <hr />
