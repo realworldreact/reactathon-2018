@@ -34,7 +34,7 @@
   {
     "name": "Brian Leroux",
     "company": "Begin.com",
-    "topic": "TBA",
+    "topic": "VanillaJS: Capabilities & Trajectory",
     "imgSlug": "speaker-brian-leroux.png",
     "twitter": "https://twitter.com/brianleroux",
     "github": "https://github.com/brianleroux"
@@ -78,5 +78,13 @@
     "imgSlug": "speaker-eve.png",
     "twitter": "https://twitter.com/eveporcello",
     "github": "https://github.com/eveporcello"
+  },
+  {
+    "name": "Jeremias Menichelli",
+    "company": "Typeform",
+    "topic": "View Transitions for Web Apps",
+    "imgSlug": "speaker-jeremias.png",
+    "twitter": "https://twitter.com/jeremenichelli",
+    "github": "https://github.com/jeremenichelli"
   }
 ]
