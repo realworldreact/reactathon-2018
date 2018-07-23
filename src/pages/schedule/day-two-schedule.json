@@ -1,8 +1,8 @@
 [
   {
-    "time": "8:30am",
+    "time": "9:00am",
     "speaker": null,
-    "talkTitle": "Check-in & Coffee",
+    "talkTitle": "Check-in, coffee, light breakfast",
     "talkDescription": null,
     "photo": null,
     "speakerBio": null,
@@ -10,33 +10,60 @@
   },
   {
     "time": "10:00am",
-    "speaker": "Brian Douglas, Netlify",
-    "talkTitle": "Welcome + React, a Year in Review",
-    "talkDescription": "It's been quite a year for React! In this short talk, we'll cover a few of the highlights.",
-    "photo": "brian-douglas",
-    "speakerBio": "Brian is a developer at Netlify (https://www.netlify.com), where he was first hired to convert their Angular app to React. Since then he has been working heavily on multiple React apps using Redux, GraphQL/Apollo, and a variety of solutions for styling. In his spare time, he mentors new programmers towards contributing in open source as well as JavaScript and React tools.",
+    "speaker": "Brian Douglas, GitHub",
+    "talkTitle": "Welcome",
+    "talkDescription": "Welcome to this special edition of Reactathon!",
+    "photo": "speaker-brian-douglas",
+    "speakerBio": "Brian Douglas is a Developer Advocate at GitHub where he works on increasing use of the GitHub API by iterating on the onboarding process and helping users with evergreen technical content. In his spare time, he mentors new programmers towards contributing in open source as well as JavaScript and React tools.",
     "tableRowExpands": true
   },
   {
-    "time": "10:15",
-    "speaker": "David Wells, Serverless",
-    "talkTitle": "Building a self-documenting component library for your company",
-    "talkDescription": "Design systems are an extremely efficient way to scale out a scalable frontend solution across multiple teams in a large (or growing) organization. Come and learn how to building an internal component library & design system can help your company ship and iterate faster. This talk will cover how David has built multiple design systems and will run through the protips and pitfalls learned along the way. TLDR; It’s easier than you think to create a scalable, maintainable UI library + Design system with React.",
-    "photo": "david-wells",
-    "speakerBio": "David Wells is a full stack developer at Serverless, Inc. in San Francisco. He is passionate about developer experience and creating products that are powerful and easy to use. His previous roles include lead UI/UX developer at Mulesoft and founder of Inbound Now, an open source marketing software platform. He specialized in Full stack JavaScript, HTML, CSS, Marketing, & UI/ UX.",
+    "time": "10:05",
+    "speaker": "Jen Luker, Formidable",
+    "talkTitle": "A11Y & Accessibility",
+    "talkDescription": "Accessibility in React has been a hot topic in the last few years, but in this talk, we'll be going beyond the basics. We'll explore a data-driven perspective to convince the business to invest in accessibility, then dive into the details of accessibility testing. We'll use lighthouse to audit applications, educate ourselves with the axe browser extensions, incorporate eslint-plugin-jsx-a11y into our lint process, and add axe-core to our automated testing suite. You'll leave prepared to add accessibility features to your application.",
+    "photo": "speaker-jen-luker",
+    "speakerBio": "Jen Luker is a Lead software engineer at Formidable, a BookBytes podcast co-host, and a member of the RxJS learning team. She has spent a majority of her decade-long career as a full-stack developer using PHP, Javascript, and CSS, but has a particular fondness for front end technologies. Jen trains others in ReactJS and accessibility, loves optimizing webpack builds, and codes apps in React Native. When she's not finding solutions, learning new technologies, or reading, her spare time is spent spinning yarn from raw wool and knitting; she's even been known to 3D print her own tools for the job. Jen is also fascinated by all things space, enjoys vintage cars, and is always looking for good conversation.",
     "tableRowExpands": true
   },
   {
-    "time": "10:50",
-    "speaker": "Jay Phelps, Netflix",
-    "talkTitle": "React, Powered by WebAssembly",
-    "talkDescription": "WebAssembly (aka wasm) is a new, standardized compilation target for the web, available in all modern browsers. But since it's so low level it can be difficult to see how it will revolutionize the future generations of React apps and potentially even power React itself. In this talk Jay will reveal what it is, how you can use it today, and the incredible opportunities it will continue to unlock.",
-    "photo": "jay-phelps",
-    "speakerBio": "Reactive programming nut and compiler enthusiast. Jay is a Senior Software Engineer at Netflix. Lover of all things open source, his contributions span numerous ecosystems. Former RxJS core team member and author of core-decorators, git-blame-someone-else, and co-author of redux-observable.",
+    "time": "10:45",
+    "speaker": "Ryan Burgess, Netflix",
+    "talkTitle": "Testing into a Better User Experience",
+    "talkDescription": "We are all talented designers and engineers that strive to create the best user experience. Unfortunately, we don’t always know what the best user experience is until a new feature is in production and used by our customers. That’s where the power of A/B testing comes into play! At Netflix, we are constantly running A/B tests to improve our user experience. Find out how to handle A/B testing at scale,  what it takes to build the optimal test, and how to start implementing A/B tests within your company.",
+    "photo": "speaker-ryan",
+    "speakerBio": "Ryan is a Software Engineering Manager at Netflix. He leads a team of cross-platform UI Engineers that build the signup flow for Netflix on iOS, Android, Website, and TV. He's also the Canadian voice on the Front End Happy Hour podcast.",
     "tableRowExpands": true
+  },
+  {
+    "time": "11:10",
+    "speaker": null,
+    "talkTitle": "Break",
+    "talkDescription": null,
+    "photo": null,
+    "speakerBio": null,
+    "tableRowExpands": false
   },
   {
     "time": "11:30",
+    "speaker": "Amjad Masad, Repl.it",
+    "talkTitle": "Repl.it plugins in React & Redux",
+    "talkDescription": "Building an extensible web IDE in React presents a unique set of challenges around sandboxing. In this talk, we’ll explore the unique challenges we faced, lessons learned, and how you can apply them to the unique challenges at your company.",
+    "photo": "speaker-amjad-masad",
+    "speakerBio": "Amjad is the CEO and founder of Repl.it, which makes programming more accessible by building tools, platforms, and infrastructure for programmers, aspiring programmers, teachers, and students. Before that he was a tech lead on the JavaScript infrastructure team at Facebook, which he helped to start. This team built and maintained open source tools that made JavaScript development easier, accessible, and generally better. The team built and/or maintained things like the Babeljs compiler, Jest, and the React Native packager. Before that he was the #1 employee at Codecademy. He did some tech-leading, built product, and also built infrastructure. Before that he was briefly at Yahoo.",
+    "tableRowExpands": true
+  },
+  {
+    "time": "11:55",
+    "speaker": "Jeremias Menichelli, Typeform",
+    "talkTitle": "A sleek view transition recipe for web apps",
+    "talkDescription": "Have you ever wondered why good performance around animated transitions on views is so hard to achieve in web projects? Animations and performance are one of the top point of discussion when comparing web application to their native counterparts. I’m going to share my learnings on how to safely kick off route based animations, performance tricks and modern workflows to build reliable transitions for web applications.",
+    "photo": "speaker-jeremias",
+    "speakerBio": "Jeremias is a experienced front-end engineer. He helped build all type of projects, from rich animated web experiences to Node applications. He's currently working in design systems at Typeform and he's a member of webpack's documentation team.",
+    "tableRowExpands": true
+  },
+  {
+    "time": "12:20pm",
     "speaker": null,
     "talkTitle": "Lunch",
     "talkDescription": null,
@@ -45,25 +72,25 @@
     "tableRowExpands": false
   },
   {
-    "time": "1:00pm",
-    "speaker": "Erica Cooksey, Eaze",
-    "talkTitle": "Sharing code between React and React Native",
-    "talkDescription": "Many companies use React JS for their website and would like to reuse that code in their mobile apps. This talk will cover identifying the best candidates for shared code, sharing both UI components and UI-less business logic, and using React Native in both greenfield and brownfield apps.",
-    "photo": "erica-cooksey",
-    "speakerBio": "After working for large companies including Amazon and WalmartLabs, Erica joined Eaze as the first Android engineer. She is excited about building Eaze's mobile technology from the ground up! Erica lives in San Jose and spends most of her free time training and competing in powerlifting and Brazilian jiu jitsu.",
-    "tableRowExpands": true
-  },
-  {
     "time": "1:30",
-    "speaker": "Johannes Schickling, Graphcool",
-    "talkTitle": "The future of backend development: Serverless GraphQL",
-    "talkDescription": "Using GraphQL APIs is by now the default for most React developers. But how does a GraphQL backend actually work? This talk gives an overview over modern backend development using GraphQL and the benefits of serverless deployment workflow.",
-    "photo": "johannes-schickling",
-    "speakerBio": "Johannes is CEO and co-founder of Graphcool/Prisma (GraphQL database proxy) and is currently based in SF & Berlin. He previously built and sold the VR company “Optonaut”. Johannes loves cutting-edge technologies and was one of the first adopters of Docker, React & GraphQL.",
+    "speaker": "James McNamara, Chosen.fyi",
+    "talkTitle": "Functional Lenses with Shades.js",
+    "talkDescription": "One frustrating thing for many people coming to functional programming is the clunkiness of updating a single field in an object. What used to be `user.likes += 1` becomes `const user2 = {...user, likes: user.likes + 1}`. This syntactic overhead may be fine for this example, but as your objects becomes more complex, these updates become more and more verbose. The solution to this is lenses. Lenses are a functional construct which allow you to update immutable object as easily as `mod('likes')(likes => likes + 1)(user)` (This pattern may be familiar to users of Immutable's `setIn` or `updateIn` functions). However what makes lenses interesting is not when they act like object references, but when they allow us to do things that normal object mutation does not support: updating many elements of a collection at once, or only objects that fit a criterion. Shades.js provides lens functions for native JS objects, and provides a rich library of utility functions that make transforming and updating data declarative. Time permitting, we can discuss how these patterns can fit into a Redux architecture.",
+    "photo": "speaker-james-mcnamara",
+    "speakerBio": "James McNamara is a functional web developer and co-founder of chosen.fyi, a Boston based talent network.",
     "tableRowExpands": true
   },
   {
-    "time": "2:00",
+    "time": "2:10",
+    "speaker": "Lauren Tan, Netflix",
+    "talkTitle": "Swipe Left, Uncaught TypeError: Learning to Love Type Systems",
+    "talkDescription": "Sometimes, undefined is not a function. As mortal programmers, we ship bugs to production everyday. Bugs slow us down, frustrate our users, and cause us to have crises of confidence. Don't go alone–type systems in TypeScript, Flow, and GraphQL can improve your confidence and help you ship less bugs. We'll start with why: a practical look at what you'll get from embracing types. Then, a gentle introduction to the ideas behind them. Finally, we'll explore the possibilities of a type system over the network.",
+    "photo": "speaker-lauren-tan",
+    "speakerBio": "Lauren is a software engineering manager at Netflix.",
+    "tableRowExpands": true
+  },
+  {
+    "time": "2:40",
     "speaker": null,
     "talkTitle": "Break",
     "talkDescription": null,
@@ -72,34 +99,25 @@
     "tableRowExpands": false
   },
   {
-    "time": "2:30",
-    "speaker": "Berkeley Martinez, FreeCodeCamp.org",
-    "talkTitle": "Vertical Redux Architecture",
-    "talkDescription": "At freeCodeCamp, we've built a large Redux app with lots of moving parts. But building large scale Redux apps can get quite frustrating. In this talk we'll cover some rules to mitigate common issues seen in large apps, structural guidelines inspired by Clojure(Script) frameworks, and Redux theory of actions as events that help keep your large app transparent and manageable.",
-    "photo": "berkeley-martinez",
-    "speakerBio": "Berkeley is a San Francisco native and the CTO of freeCodeCamp.org, where students learn full-stack web development for free. He is also the author of Redux-Epic, a library built to do better async and server-side rendering in React with RxJS Observables. Previously, Berkeley worked as a professional consultant and instructor with Real World Reacton and over two years trained engineers from Twilio, Amazon, OpenTable, Pinterest, Netflix, and more.",
-    "tableRowExpands": true
-  },
-  {
-    "time": "3:05",
-    "speaker": "Kaylie Kwon, Eventbrite",
-    "talkTitle": "Motion in JavaScript",
-    "talkDescription": "You may have heard of CSS in JS, but what alternatives are there for implementing interactive motions in JS? This talk will be a comparison of several approaches from using vanilla Javascript to libraries like Anime.js and Popmotion, as well as ones in React ecosystem like React Transition Group and React Motion.",
-    "photo": "kaylie-kwon",
-    "speakerBio": "Kaylie is a frontend engineer at Eventbrite from San Francisco, who loves all things related to devtools and open source.",
-    "tableRowExpands": true
-  },
-  {
-    "time": "3:25",
-    "speaker": "Brian Leroux, Begin.com",
-    "talkTitle": "React on Lambda with Parcel.js",
-    "talkDescription": "Abstract coming soon",
-    "photo": "brian-leroux",
-    "speakerBio": "Brian is a former member of the Adobe PhoneGap team and helped to foster the Apache Cordova project. He is also responsible for wtfjs. Lately he has been botbuilding on the cloud with begin.com and hacking on Architect (https://arc.codes), a project of the JavaScript Foundation (JSF).",
+    "time": "3:00",
+    "speaker": "Brian Holt, Microsoft",
+    "talkTitle": "10k or Bust: The Delicate Power of Webpack and Babel",
+    "talkDescription": "Your app is bigger and slower than it needs to be. Without rewriting app code we can squeeze more performance out of your code by tweaking Webpack and Babel. These tools are immensely powerful but it’s a delicate dance to get them to play nice. This talk is full of tips and tricks to get you there. After three years of tooling around with Webpack and Babel at Netflix, LinkedIn, and Reddit Brian got some battle-won knowledge that he’d like to share with you all. Some non-intuitive tricks that lead to smaller bundles, faster parse times, browser-engine opts and de-opts, and faster perceived load times. While these examples will use react to make examples this apply to any application that uses these two phenomenal tools. You’ll be surprised at what you can do just turning a few knobs.",
+    "photo": "speaker-brian-holt",
+    "speakerBio": "Brian Holt is a senior cloud developer advocate at Microsoft, where he’s all about developers, developers, developers. Previously, he was a JavaScript engineer at Netflix, LinkedIn, and Reddit. When not working, Brian finds time to teach on Frontend Masters, run his mouth on Front End Happy Hour, travel all over the world, and play with his adorable dog.",
     "tableRowExpands": true
   },
   {
     "time": "3:40",
+    "speaker": "Desmond Brand, Flexport",
+    "talkTitle": "Scaling a Web App with Code Splitting",
+    "talkDescription": "Code splitting ",
+    "photo": "speaker-desmond-brand",
+    "speakerBio": "Desmond is the Director of Engineering at Flexport. Previously, he was part of the excellent Khan Academy team. Prior to moving to the Bay Area, he worked at Bing in Bellevue WA. He grew up in Melbourne, Australia, where he went to Swinburne University and earned degrees in Robotics Engineering and Computer Science.",
+    "tableRowExpands": true
+  },
+  {
+    "time": "4:00",
     "speaker": null,
     "talkTitle": "Break",
     "talkDescription": null,
@@ -108,48 +126,48 @@
     "tableRowExpands": false
   },
   {
-    "time": "4:00",
-    "speaker": "Kyle Mathews, Gatsby.js",
-    "talkTitle": "Advanced Web Performance Optimizations",
-    "talkDescription": "As web developers, we have incredible demands placed upon us. Expectations for the quality of websites are remarkably high, and continue to rise. Not only must websites be feature-rich and robust, they must load and run quickly on a near-infinite variety of devices and browsers all around the world. Oh, and do it with limited team members on an aggressive timeline. Come join Kyle Mathews, founder of Gatsby, as he talks about modern web performance. You'll learn the tools & techniques you can start using today to make your React sites super fast. We’ll discuss code splitting, <link preload>, greedy prefetching, header optimizations, service workers, and more using Gatsby as a case study for these techniques.",
-    "photo": "kyle-mathews",
-    "speakerBio": "Kyle is a tech entrepreneur based in San Francisco, CA. He's founded several startups and is now helping build a next generation open source JavaScript website framework called Gatsby that blends the speed and simplicity of static sites with the rich tooling and client-side capabilities of React.js.",
+    "time": "4:20",
+    "speaker": "Eve Porcello, Moon Highway",
+    "talkTitle": "⚡ GraphQL in 3 Components",
+    "talkDescription": "Three components: that’s all you need to know to start building React applications with GraphQL. In this talk, we'll take a closer look at how to incorporate Apollo's Query, Mutation, and Subscription components to handle all of your React app's data fetching needs. And with that, you'll be hooked on GraphQL.",
+    "photo": "speaker-eve",
+    "speakerBio": "Eve Porcello is the co-owner of Moon Highway, a training and curriculum development company based in Northern California. She is an active corporate trainer, creates courses for LinkedIn Learning, and is the co-author of O'Reilly's Learning GraphQL and Learning React.",
     "tableRowExpands": true
   },
   {
     "time": "4:30",
-    "speaker": "Tyler Martinez, Docker",
-    "talkTitle": "GraphQL Outside the Box",
-    "talkDescription": "At Docker, we are using GraphQL alongside our existing REST APIs and making it work without a GraphQL server. Instead, we use GraphQL client side, where it serves as the interface to our network layer and the glue that binds our components together. We have taken this approach as a progressive solution to the difficult problem of introducing GraphQL to an existing application stack. By breaking the rules a bit we gain many of the benefits that GraphQL provides immediately while spreading out the implementation over many releases. While a novel approach I also envision a future where running GraphQL on the client is not uncommon. With the advent of blockchain technology and the concept of “dapps” we must reconsider the role of the application that runs on the end user’s device. By running GraphQL on the client we can consume remote GraphQL services, interact directly with the blockchain, browser / native APIs, and more through GraphQL.",
-    "photo": "tyler-martinez",
-    "speakerBio": "Tyler is an engineer at Docker working on UI applications. When not writing code you can find him at a beach near his home in San Francisco.",
+    "speaker": "Laurie Voss, NPM",
+    "talkTitle": "10 Things You Didn't Know about NPM",
+    "talkDescription": "Fifty percent of npm users started using it less than a year ago, so if you’re only scratching the surface of npm’s features, you’re not alone. Laurie Voss gives a guided tour of npm’s greatest features, old and new, and explains how they can be integrated into your workflow to make you better, happier, and more productive.",
+    "photo": "speaker-laurie-voss",
+    "speakerBio": "Laurie Voss is a veteran web developer and CTO of NPM, Inc.",
     "tableRowExpands": true
   },
   {
     "time": "4:50",
-    "speaker": "Zubair Ahmed, Oakland Blockchain Developers",
-    "talkTitle": "Connecting a React front end to an Ethereum Smart Contract",
-    "talkDescription": "Learn how to leverage the front-end skills you already know to connect to a smart contract and deploy to the Ethereum blockchain. We'll cover a brief introduction to Solidity, the Ethereum smart contract programming language (similar to JavaScript), and discuss the tools you need create a smart contract on the Ethereum blockchain. We'll also learn how to use web-based blockchain intermediaries such as Metamask.",
-    "photo": "zubair-ahmed",
-    "speakerBio": "Zubair is a software engineer with Oakland Blockchain Developers and the CTO of GIVE. He specializes in Solidity, Web3.js, Remix, Truffle, IPFS, geth, and smart contract security. He also loves building the front-end of his dApps with React, and is excited to share his insight on building for Ethereum.",
+    "speaker": "Brian LeRoux, Begin.com",
+    "talkTitle": "VanillaJS: Capabilities & Trajectory",
+    "talkDescription": "React and similar libraries are tools that solved specific problems to address the limitations of vanilla JavaScript and the web browsers where it runs. But are they still needed today? In this talk, we will explore how far vanilla JS has come, what it can and should be used for, and where its limitations may require a library such as React.",
+    "photo": "speaker-brian-leroux",
+    "speakerBio": "Brian is a former member of the Adobe PhoneGap team and helped to foster the Apache Cordova project. He is also responsible for wtfjs. Lately he has been building on the cloud with begin.com and hacking on Architect (https://arc.codes), a plaintext manifest for defining next generation cloud infrastructure, and a project of the JavaScript Foundation.",
     "tableRowExpands": true
   },
   {
-    "time": "5:10",
-    "speaker": "Brian Douglas, Netlify",
-    "talkTitle": "Closing Words",
-    "talkDescription": null,
-    "photo": "brian-douglas",
-    "speakerBio": "Brian is a developer at Netlify (https://www.netlify.com), where he was first hired to convert their Angular app to React. Since then he has been working heavily on multiple React apps using Redux, GraphQL/Apollo, and a variety of solutions for styling. In his spare time, he mentors new programmers towards contributing in open source as well as JavaScript and React tools.",
+    "time": "5:20",
+    "speaker": "Brian Douglas, GitHub",
+    "talkTitle": "Thanks and goodbye",
+    "talkDescription": "Thanks for joining us at Reacathon 2.5! We hope to see you again in March 2019!",
+    "photo": "speaker-brian-douglas",
+    "speakerBio": "Brian Douglas is a Developer Advocate at GitHub where he works on increasing use of the GitHub API by iterating on the onboarding process and helping users with evergreen technical content. In his spare time, he mentors new programmers towards contributing in open source as well as JavaScript and React tools.",
     "tableRowExpands": true
   },
   {
-    "time": "5:15 - 7:00",
+    "time": "5:20 - 7:00",
     "speaker": "Afterparty",
-    "talkTitle": "Lobby",
-    "talkDescription": null,
+    "talkTitle": "GitHub Bar & Lounge",
+    "talkDescription": "After a long day of content, stay and join us for refreshments, beer, and pizza! Discuss the day's talks, mingle with attendees and speakers, and have a good time!",
     "photo": null,
     "speakerBio": null,
-    "tableRowExpands": false
+    "tableRowExpands": true
   }
 ]
