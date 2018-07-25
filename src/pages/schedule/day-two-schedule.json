@@ -48,9 +48,9 @@
     "time": "11:30",
     "speaker": "Amjad Masad, Repl.it",
     "talkTitle": "Repl.it plugins in React & Redux",
-    "talkDescription": "Building an extensible web IDE in React presents a unique set of challenges around sandboxing. In this talk, we’ll explore the unique challenges we faced, lessons learned, and how you can apply them to the unique challenges at your company.",
+    "talkDescription": "Building an extensible web IDE in React presents a unique set of challenges around sandboxing and API design. In this talk, we’ll explore the unique challenges we faced, lessons learned, and takeaways that can be applied to the challenge of building any large React application.",
     "photo": "speaker-amjad-masad",
-    "speakerBio": "Amjad is the CEO and founder of Repl.it, which makes programming more accessible by building tools, platforms, and infrastructure for programmers, aspiring programmers, teachers, and students. Before that he was a tech lead on the JavaScript infrastructure team at Facebook, which he helped to start. This team built and maintained open source tools that made JavaScript development easier, accessible, and generally better. The team built and/or maintained things like the Babeljs compiler, Jest, and the React Native packager. Before that he was the #1 employee at Codecademy. He did some tech-leading, built product, and also built infrastructure. Before that he was briefly at Yahoo.",
+    "speakerBio": "Amjad Masad is co-founder and CEO at Repl.it. Amjad has dedicated his career to making programming more accessible. Starting with Codecademy, where he was a founding engineer, he helped build the platform that introduced tens of millions of people to coding. Afterward, he joined Facebook to lead the JavaScript Infrastructure team to build and maintain developer tools like the Metro Packager, Babel, and Jest. With Repl.it, he's now focused on building tools that lower the barriers to entry for building and shipping software.",
     "tableRowExpands": true
   },
   {
@@ -76,7 +76,7 @@
     "speaker": "James McNamara, Chosen.fyi",
     "talkTitle": "Functional Lenses with Shades.js",
     "talkDescription": "One frustrating thing for many people coming to functional programming is the clunkiness of updating a single field in an object. What used to be `user.likes += 1` becomes `const user2 = {...user, likes: user.likes + 1}`. This syntactic overhead may be fine for this example, but as your objects becomes more complex, these updates become more and more verbose. The solution to this is lenses. Lenses are a functional construct which allow you to update immutable object as easily as `mod('likes')(likes => likes + 1)(user)` (This pattern may be familiar to users of Immutable's `setIn` or `updateIn` functions). However what makes lenses interesting is not when they act like object references, but when they allow us to do things that normal object mutation does not support: updating many elements of a collection at once, or only objects that fit a criterion. Shades.js provides lens functions for native JS objects, and provides a rich library of utility functions that make transforming and updating data declarative. Time permitting, we can discuss how these patterns can fit into a Redux architecture.",
-    "photo": "speaker-james-mcnamara",
+    "photo": "speaker-james",
     "speakerBio": "James McNamara is a functional web developer and co-founder of chosen.fyi, a Boston based talent network.",
     "tableRowExpands": true
   },
@@ -86,7 +86,7 @@
     "talkTitle": "Swipe Left, Uncaught TypeError: Learning to Love Type Systems",
     "talkDescription": "Sometimes, undefined is not a function. As mortal programmers, we ship bugs to production everyday. Bugs slow us down, frustrate our users, and cause us to have crises of confidence. Don't go alone–type systems in TypeScript, Flow, and GraphQL can improve your confidence and help you ship less bugs. We'll start with why: a practical look at what you'll get from embracing types. Then, a gentle introduction to the ideas behind them. Finally, we'll explore the possibilities of a type system over the network.",
     "photo": "speaker-lauren-tan",
-    "speakerBio": "Lauren is a software engineering manager at Netflix.",
+    "speakerBio": "Hi there! I'm an Engineering Manager at Netflix, and thoughtful engineer at heart. I'm leading a team building a suite of data-intensive applications that manages billions of dollars worth of spend in the content programming and talent space. Through these tools, our creatives efficiently and effectively plan our content and talent strategy, guided by our partnership with our data science team. Previously, I was an engineering lead at Netflix, delivering a sophisticated intelligence tool for programming billions of dollars worth of content. Although formally educated in Finance, I've been involved in the intersections of technology, design, and business for more than a decade. I'm also an active contributor to open source – maintaining a number of popular libraries, and a regular speaker at leading JavaScript, Ruby and Elixir conferences.",
     "tableRowExpands": true
   },
   {
@@ -111,7 +111,7 @@
     "time": "3:40",
     "speaker": "Desmond Brand, Flexport",
     "talkTitle": "Scaling a Web App with Code Splitting",
-    "talkDescription": "Code splitting ",
+    "talkDescription": "Abstract coming soon",
     "photo": "speaker-desmond-brand",
     "speakerBio": "Desmond is the Director of Engineering at Flexport. Previously, he was part of the excellent Khan Academy team. Prior to moving to the Bay Area, he worked at Bing in Bellevue WA. He grew up in Melbourne, Australia, where he went to Swinburne University and earned degrees in Robotics Engineering and Computer Science.",
     "tableRowExpands": true
@@ -136,11 +136,11 @@
   },
   {
     "time": "4:30",
-    "speaker": "Laurie Voss, NPM",
-    "talkTitle": "10 Things You Didn't Know about NPM",
+    "speaker": "Laurie Voss, npm",
+    "talkTitle": "10 Things You Didn't Know about npm",
     "talkDescription": "Fifty percent of npm users started using it less than a year ago, so if you’re only scratching the surface of npm’s features, you’re not alone. Laurie Voss gives a guided tour of npm’s greatest features, old and new, and explains how they can be integrated into your workflow to make you better, happier, and more productive.",
     "photo": "speaker-laurie-voss",
-    "speakerBio": "Laurie Voss is a veteran web developer and CTO of NPM, Inc.",
+    "speakerBio": "Laurie Voss is a veteran web developer and CTO of npm, Inc.",
     "tableRowExpands": true
   },
   {
@@ -149,7 +149,7 @@
     "talkTitle": "VanillaJS: Capabilities & Trajectory",
     "talkDescription": "React and similar libraries are tools that solved specific problems to address the limitations of vanilla JavaScript and the web browsers where it runs. But are they still needed today? In this talk, we will explore how far vanilla JS has come, what it can and should be used for, and where its limitations may require a library such as React.",
     "photo": "speaker-brian-leroux",
-    "speakerBio": "Brian is a former member of the Adobe PhoneGap team and helped to foster the Apache Cordova project. He is also responsible for wtfjs. Lately he has been building on the cloud with begin.com and hacking on Architect (https://arc.codes), a plaintext manifest for defining next generation cloud infrastructure, and a project of the JavaScript Foundation.",
+    "speakerBio": "Brian is a former member of the Adobe PhoneGap team and helped to foster the Apache Cordova project. He is also responsible for wtfjs. Lately he has been building on the cloud with begin.com and hacking on Architect (https://arc.codes), a plaintext manifest for defining next generation cloud infrastructure, and also a project of the JavaScript Foundation.",
     "tableRowExpands": true
   },
   {

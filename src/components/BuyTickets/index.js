@@ -12,7 +12,7 @@ class BuyTickets extends Component {
   constructor() {
     super()
 
-    this.state = { activeTab: 1 }
+    this.state = { activeTab: 2 }
   }
 
   handleTabClick(e, tabNum) {
@@ -22,11 +22,11 @@ class BuyTickets extends Component {
 
   renderActiveTabContent(activeTab) {
     if (activeTab === 1) {
-      return <RoundOneUniversteTicketWidget />
+      return <p>Round 1 tickets are sold out.</p>
     } else if (activeTab === 2) {
-      return <p>Round 2 tickets go on sale July 16</p>
+      return <RoundOneUniversteTicketWidget />
     } else if (activeTab === 3) {
-      return <p>Round 3 tickets go on sale August 6</p>
+      return <p>Round 3 tickets go on sale August 17</p>
     }
   }
 

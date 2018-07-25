@@ -8,12 +8,12 @@
     "github": "https://github.com/knitcodemonkey"
   },
   {
-    "name": "Desmond Brand",
-    "company": "Flexport",
-    "topic": "Optimizing Performance with Code Splitting",
-    "imgSlug": "speaker-desmond-brand.png",
-    "twitter": "https://twitter.com/dmnd_",
-    "github": "https://github.com/dmnd"
+    "name": "Ryan Burgess",
+    "company": "Netflix",
+    "topic": "Testing into a better user experience",
+    "imgSlug": "speaker-ryan.png",
+    "twitter": "https://twitter.com/burgessdryan",
+    "github": "https://github.com/ryanburgess"
   },
   {
     "name": "Amjad Masad",
@@ -24,20 +24,20 @@
     "github": "https://github.com/amasad"
   },
   {
-    "name": "Laurie Voss",
-    "company": "NPM",
-    "topic": "10 things you didn't know about NPM",
-    "imgSlug": "speaker-laurie-voss.png",
-    "twitter": "https://twitter.com/seldo",
-    "github": "https://github.com/seldo"
+    "name": "Jeremias Menichelli",
+    "company": "Typeform",
+    "topic": "View Transitions for Web Apps",
+    "imgSlug": "speaker-jeremias.png",
+    "twitter": "https://twitter.com/jeremenichelli",
+    "github": "https://github.com/jeremenichelli"
   },
   {
-    "name": "Brian Leroux",
-    "company": "Begin.com",
-    "topic": "VanillaJS: Capabilities & Trajectory",
-    "imgSlug": "speaker-brian-leroux.png",
-    "twitter": "https://twitter.com/brianleroux",
-    "github": "https://github.com/brianleroux"
+    "name": "James McNamara",
+    "company": "Chosen.fyi",
+    "topic": "Functional Lenses in JavaScript",
+    "imgSlug": "speaker-james.png",
+    "twitter": "#",
+    "github": "https://github.com/jamesmcnamara"
   },
   {
     "name": "Lauren Tan",
@@ -56,20 +56,12 @@
     "github": "https://github.com/btholt"
   },
   {
-    "name": "Ryan Burgess",
-    "company": "Netflix",
-    "topic": "Testing into a better user experience",
-    "imgSlug": "speaker-ryan.png",
-    "twitter": "https://twitter.com/burgessdryan",
-    "github": "https://github.com/ryanburgess"
-  },
-  {
-    "name": "James McNamara",
-    "company": "Chosen.fyi",
-    "topic": "Functional Lenses in JavaScript",
-    "imgSlug": "speaker-james.png",
-    "twitter": "#",
-    "github": "https://github.com/jamesmcnamara"
+    "name": "Desmond Brand",
+    "company": "Flexport",
+    "topic": "Optimizing Performance with Code Splitting",
+    "imgSlug": "speaker-desmond-brand.png",
+    "twitter": "https://twitter.com/dmnd_",
+    "github": "https://github.com/dmnd"
   },
   {
     "name": "Eve Porcello",
@@ -80,11 +72,19 @@
     "github": "https://github.com/eveporcello"
   },
   {
-    "name": "Jeremias Menichelli",
-    "company": "Typeform",
-    "topic": "View Transitions for Web Apps",
-    "imgSlug": "speaker-jeremias.png",
-    "twitter": "https://twitter.com/jeremenichelli",
-    "github": "https://github.com/jeremenichelli"
+    "name": "Laurie Voss",
+    "company": "NPM",
+    "topic": "10 things you didn't know about NPM",
+    "imgSlug": "speaker-laurie-voss.png",
+    "twitter": "https://twitter.com/seldo",
+    "github": "https://github.com/seldo"
+  },
+  {
+    "name": "Brian Leroux",
+    "company": "Begin.com",
+    "topic": "VanillaJS: Capabilities & Trajectory",
+    "imgSlug": "speaker-brian-leroux.png",
+    "twitter": "https://twitter.com/brianleroux",
+    "github": "https://github.com/brianleroux"
   }
 ]
