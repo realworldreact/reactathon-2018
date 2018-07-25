@@ -61,6 +61,7 @@ class SchedulePage extends Component {
           </div>
           <div className={styles['buy-tickets-container']}>
             {buyTicketsSection}
+            <ConvinceYourBoss />
           </div>
         </main>
       </div>
@@ -94,6 +95,7 @@ class SchedulePage extends Component {
             </div>
             <div className={styles['buy-tickets-container']}>
               {buyTicketsSection}
+              <ConvinceYourBoss />
             </div>
           </main>
           <Schedule date="SEPTEMBER 7" schedule={dayOneSchedule} />
