@@ -76,7 +76,7 @@
     "speaker": "James McNamara, Chosen.fyi",
     "talkTitle": "Functional Lenses with Shades.js",
     "talkDescription": "One frustrating thing for many people coming to functional programming is the clunkiness of updating a single field in an object. What used to be `user.likes += 1` becomes `const user2 = {...user, likes: user.likes + 1}`. This syntactic overhead may be fine for this example, but as your objects becomes more complex, these updates become more and more verbose. The solution to this is lenses. Lenses are a functional construct which allow you to update immutable object as easily as `mod('likes')(likes => likes + 1)(user)` (This pattern may be familiar to users of Immutable's `setIn` or `updateIn` functions). However what makes lenses interesting is not when they act like object references, but when they allow us to do things that normal object mutation does not support: updating many elements of a collection at once, or only objects that fit a criterion. Shades.js provides lens functions for native JS objects, and provides a rich library of utility functions that make transforming and updating data declarative. Time permitting, we can discuss how these patterns can fit into a Redux architecture.",
-    "photo": "speaker-james-mcnamara",
+    "photo": "speaker-james",
     "speakerBio": "James McNamara is a functional web developer and co-founder of chosen.fyi, a Boston based talent network.",
     "tableRowExpands": true
   },

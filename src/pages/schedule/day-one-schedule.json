@@ -1,6 +1,6 @@
 [
   {
-    "time": "5:00pm - 5:30pm",
+    "time": "5:00pm - 6:00pm",
     "speaker": null,
     "talkTitle": "Registration",
     "talkDescription": null,
@@ -9,12 +9,21 @@
     "tableRowExpands": false
   },
   {
-    "time": "5:00pm - 8:00pm",
+    "time": "5:00pm - 8:30pm",
     "speaker": null,
     "talkTitle": "Welcome Reception",
-    "talkDescription": "We kick off the conference with an evening reception featuring food, drinks, and good company! You're welcome to casually socialize and make new friends, and are also encouraged to learn something new at one of the moderated Topic Tables!",
+    "talkDescription": null,
     "photo": null,
     "speakerBio": null,
-    "tableRowExpands": true
+    "tableRowExpands": false
+  },
+  {
+    "time": "6:00pm - 8:00pm",
+    "speaker": null,
+    "talkTitle": "Topic Tables",
+    "talkDescription": null,
+    "photo": null,
+    "speakerBio": null,
+    "tableRowExpands": false
   }
 ]
