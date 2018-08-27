@@ -21,6 +21,7 @@ const Footer = () => (
       <Link to="/code-of-conduct">Code of Conduct</Link>
       <Link to="/schedule">Schedule</Link>
       <Link to="/workshops">Workshops</Link>
+      <Link to="/jobs">Jobs</Link>
     </nav>
     <nav className={styles.nav} style={{ marginTop: 15 }}>
       <a
@@ -30,7 +31,7 @@ const Footer = () => (
         Volunteers
       </a>
       <a href="mailto:sponsors@reactathon.com?subject=Sponsorship Inquiry">
-        Sponsors
+        Become a Sponsor
       </a>
     </nav>
     <div className={styles['social-media']}>
