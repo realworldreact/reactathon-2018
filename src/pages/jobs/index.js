@@ -8,7 +8,7 @@ const JobsPage = () => (
     <h1 style={{ marginBottom: 50 }}>Jobs</h1>
     <main>
       <h2 style={{ marginBottom: 50 }}>
-        Please take the time to read our code of conduct.
+        Job opportunities from our sponsors
       </h2>
       {jobs.map(({ title, description, fullDescriptionURL }, i) => (
         <div key={`job-${i}`} style={{ marginBottom: 30 }}>

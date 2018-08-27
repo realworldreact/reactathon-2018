@@ -18,6 +18,7 @@ const SmallHeader = () => (
       <Link to="/workshops">Workshops</Link>
       <Link to="/additional-info#venue">Venue</Link>
       <Link to="/additional-info#friday">Friday Fun Day</Link>
+      <Link to="/jobs">Jobs</Link>
     </nav>
   </header>
 )

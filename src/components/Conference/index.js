@@ -30,6 +30,9 @@ const Conference = () => (
       <li style={{ display: 'inline', paddingLeft: 20 }}>
         <Link to="/workshops">Workshops Schedule</Link>
       </li>
+      <li style={{ display: 'inline', paddingLeft: 40 }}>
+        <Link to="/jobs">Jobs</Link>
+      </li>
     </ul>
   </section>
 )
