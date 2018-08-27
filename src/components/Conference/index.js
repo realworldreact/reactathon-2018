@@ -24,10 +24,10 @@ const Conference = () => (
         marginTop: 30,
       }}
     >
-      <li style={{ display: 'inline', paddingRight: '20' }}>
+      <li style={{ display: 'inline', paddingRight: 20 }}>
         <Link to="/schedule">Conference Schedule</Link>
       </li>
-      <li style={{ display: 'inline', paddingLeft: '20' }}>
+      <li style={{ display: 'inline', paddingLeft: 20 }}>
         <Link to="/workshops">Workshops Schedule</Link>
       </li>
     </ul>
