@@ -103,16 +103,15 @@ class AdditionalInfoPage extends Component {
               offer in this guided tour! We'll test your stamina by walking up
               some of the city's hidden staircases, passing by tucked-away
               gardens and breathtaking views of the city. Enjoy lunch in San
-              Francisco's Little Italy, or "North Beach" as we call it, and then
-              take a ride on the historic cable cars!
+              Francisco's Russian Hill, and take a ride on the historic cable cars!
             </p>
             <p>
               Along the way, take photos of some famous landmarks and hidden
               sights to participate in the scavenger hunt to win prizes!
             </p>
             <p>
-              Come hang out with us and make some new friends from 11:00am -
-              3:30pm.
+              Come hang out with us and make some new friends from 9:30am -
+              1:00pm.
             </p>
           </div>
         </article>

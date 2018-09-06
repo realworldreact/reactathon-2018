@@ -1,6 +1,6 @@
 [
   {
-    "time": "5:00pm - 6:00pm",
+    "time": "6:00pm - 7:00pm",
     "speaker": null,
     "talkTitle": "Registration",
     "talkDescription": null,
@@ -9,7 +9,7 @@
     "tableRowExpands": false
   },
   {
-    "time": "5:00pm - 8:30pm",
+    "time": "6:00pm - 9:00pm",
     "speaker": null,
     "talkTitle": "Welcome Reception",
     "talkDescription": null,
@@ -18,7 +18,7 @@
     "tableRowExpands": false
   },
   {
-    "time": "6:00pm - 8:00pm",
+    "time": "7:00pm - 8:00pm",
     "speaker": null,
     "talkTitle": "Topic Tables",
     "talkDescription": null,

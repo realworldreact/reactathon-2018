@@ -30,7 +30,7 @@ class Schedule extends Component {
     return (
       <section
         className={styles.container}
-        style={{ marginTop: 50, marginBottom: 50 }}
+        style={{ marginTop: 50, marginBottom: 50, marginLeft: '20', marginRight: '20' }}
       >
         <h2 style={{ marginBottom: 20 }}>SCHEDULE - {date}</h2>
         <p className={styles['mobile-callout']}>Tap a row for details</p>
